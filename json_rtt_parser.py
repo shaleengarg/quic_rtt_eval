@@ -40,17 +40,66 @@ def get_fpkt_num(pkt_layers):
     return quic_pkt_num
 
 
+#quic_frame = quic['quic.frame']
+def get_ack_info(quic_frame):
+    ack_list = []
+    if isinstance(quic_frame, list):
+        for each_frame in quic_frame:
+            ack_dict = {}
+            if 'quic.ack.largest_acknowledged' in each_frame:
+                largest_acked = each_frame['quic.ack.largest_acknowledged']
+                ack_delay = each_frame['quic.ack.ack_delay']
+                ack_dict['largest_acked'] = largest_acked
+                ack_dict['ack_delay'] = ack_delay
+                ack_list.append(ack_dict);
+    elif isinstance(quic_frame, dict):
+        ack_dict = {}
+        if 'quic.ack.largest_acknowledged' in quic_frame:
+            largest_acked = quic_frame['quic.ack.largest_acknowledged']
+            ack_delay = quic_frame['quic.ack.ack_delay']
+            ack_dict['largest_acked'] = largest_acked
+            ack_dict['ack_delay'] = ack_delay
+            ack_list.append(ack_dict);
+
+    #print(ack_list)
+    return ack_list
+
+
+#quic_frame = a['quic']
 def get_ack_frame(quic_pkt):
-    print(quic_pkt)
-    ack_frame = {}
-    if 'quic.frame' in quic_pkt:
-        frame = quic_pkt['quic.frame']
-        frame_type = frame['quic.frame_type']
-        if frame_type == 2 or frame_type == 3:
-            ack_frame = frame
-    
+    ack_frame = []
+
+    if isinstance(quic_pkt, list): 
+        for quic in quic_pkt:
+            quic_frame = quic['quic.frame']
+            ack_frame.extend(get_ack_info(quic_frame))
+
+    elif isinstance(quic_pkt, dict):
+        quic_frame = quic_pkt['quic.frame']
+        ack_frame.extend(get_ack_info(quic_frame))
+    else:
+        print("Fatal error: neither a list nor a dict")
+
     return ack_frame
 
+
+def calculate_rtt(fpkt_tstamp, ack_tstamp):
+    ft = float(fpkt_tstamp)
+    at = float(ack_tstamp)
+    return (at - ft)
+
+def map_ack_frame_to_forward(all_fpkts, ack_frame, timestamp):
+    for ack in ack_frame:
+        largest_ack = ack['largest_acked'];
+        ack_delay = ack['ack_delay']
+        for fpkt in all_fpkts:
+            fpkt_num = fpkt['fpkt_num']
+            fpkt_tstamp = fpkt['fpkt_tstamp']
+            if(fpkt_num == largest_ack):
+                fpkt['ack_tstamp'] = timestamp
+                fpkt['ack_delay'] = ack_delay
+                fpkt['calculated_rtt'] = calculate_rtt(fpkt_tstamp, timestamp)
+    return
 
 def main():
     with open('decrypted_dump.json') as openfile:
@@ -73,17 +122,11 @@ def main():
             all_fpkts.append(this_dict)
         else: ##pkt is backward
             quic_frame = a['quic']
-            
-            print("#########################################")
-            print(quic_frame)
-
-            continue
-
             ack_frame = get_ack_frame(quic_frame)
-            #if len(ack_frame) != 0:
-            #    print(ack_frame)
-    
+            if len(ack_frame) != 0:
+                map_ack_frame_to_forward(all_fpkts, ack_frame, timestamp)
 
+    print(all_fpkts)
 
     return
 
