@@ -1,0 +1,3037 @@
+[
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.728292000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.728292000",
+          "frame.time_delta": "5.381040000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "5.389792000",
+          "frame.number": "19",
+          "frame.len": "1292",
+          "frame.cap_len": "1292",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:tls",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1278",
+          "ip.id": "0x904b",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xa7a1",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "1258",
+          "udp.checksum": "0x02fe",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          },
+          "udp.payload": "c3:00:00:00:01:08:88:0f:07:39:91:94:2b:03:00:00:44:d0:f5:66:66:9c:ef:b9:66:eb:92:c9:30:05:8c:fa:af:76:a2:2b:03:fa:da:60:45:4c:90:ce:68:d4:d9:c5:16:4c:24:5a:00:a9:bf:a8:29:4f:be:8a:aa:73:b5:ec:8e:46:cf:74:90:fc:5e:b5:5e:fd:70:2e:81:7a:a6:35:e3:5c:1f:5c:f3:57:ed:08:34:48:6b:dd:a3:74:ec:4d:e1:b7:16:ec:e2:55:0b:78:a7:c6:44:14:58:2e:03:75:94:f2:77:fa:67:62:8b:74:30:18:be:09:e4:ed:ba:ca:f6:fc:09:61:a2:82:b0:92:2c:6f:82:7c:e5:23:eb:06:1e:1e:c2:d0:99:41:2d:1b:5b:0c:0e:21:f4:0e:47:ae:ec:c4:d9:7a:9e:6c:43:ea:01:d4:c5:da:4e:72:c0:8d:64:4c:ba:fa:f8:58:6c:1d:b7:f2:86:86:cd:d5:13:4b:b8:93:c9:50:10:7b:ef:24:84:e9:f6:4c:02:1f:df:5b:fd:d7:7a:af:55:5d:12:20:56:b0:c1:43:36:d4:5b:0b:3e:db:a4:be:3b:ff:63:7f:11:80:f6:bb:8f:49:12:4c:43:56:95:60:bf:cc:a1:ff:dd:0f:a5:9d:51:25:d0:a3:99:b4:fa:fa:14:a9:0e:3c:32:11:e0:19:97:e2:fb:0f:df:43:51:5b:3d:ce:35:be:06:c7:00:21:c8:69:c8:5c:b5:30:b5:f9:f1:12:a3:37:b5:29:bc:e6:b7:11:e3:c4:4b:68:e6:9b:01:63:bd:4d:7f:db:49:aa:49:15:ba:d3:26:9b:71:f3:d1:84:ed:d4:3a:95:78:07:43:68:f4:09:79:9d:98:aa:97:bb:6a:e2:3b:ee:23:8f:24:47:8a:14:28:eb:b0:21:4d:7b:b7:cc:30:0a:02:a3:3a:03:64:f1:20:5a:a0:f7:e6:97:a2:8d:88:eb:4d:1a:0a:8d:da:ba:5e:6c:8f:69:03:61:f6:fd:d7:51:85:82:64:eb:2e:29:70:89:cf:2b:7f:21:87:a6:7e:81:1e:33:ff:6f:9b:c7:2f:5c:bb:cd:80:8e:db:44:14:6b:77:51:28:60:97:ab:40:7f:0d:a1:7b:66:76:03:69:69:84:72:47:f9:50:0d:2e:09:73:2b:07:72:89:1f:52:5b:06:27:2b:6c:1a:10:3b:c3:7a:be:fb:e4:8d:66:f4:6d:94:80:05:38:9f:06:3a:97:13:99:d9:de:62:a3:34:95:84:e1:a4:72:9f:42:e5:79:23:8f:61:39:8f:7b:09:50:71:07:43:fc:27:a6:98:ad:68:03:e7:d5:cd:f9:03:c8:92:e9:09:e2:0f:cc:99:43:c4:e4:1f:f5:ce:43:d3:3d:26:1c:87:47:08:67:17:37:01:84:57:bb:c3:8d:d5:30:63:67:f0:e4:5e:9d:a4:4a:8a:96:ec:1a:c2:a8:20:da:65:5b:47:66:02:82:ea:54:b8:03:a1:45:65:03:e0:b0:c9:ad:51:e6:fb:4e:e9:a7:93:94:43:33:2d:a1:1c:ed:d9:8c:37:98:9d:e3:c5:bc:4a:42:b1:c2:14:4a:e5:2b:8d:c5:5c:bf:99:98:e5:37:02:03:f1:7e:71:e3:31:bd:1d:70:23:b6:58:3a:46:8b:7e:a8:55:c2:0b:0d:fc:88:f2:4a:ff:4a:32:48:8e:eb:4a:01:47:e6:1c:9a:3f:2f:6c:b7:7d:43:3c:74:88:7e:48:76:5d:7f:31:b5:43:8e:33:6b:12:f9:8f:41:8b:f9:24:ec:c9:fe:a7:94:fb:3d:91:7f:b1:f9:3f:d1:5f:52:60:5a:79:f9:7b:d2:93:11:f6:f5:da:35:a9:81:78:60:88:60:0d:66:e1:ca:6c:00:49:b1:c8:16:41:92:37:90:0b:e5:1e:78:1b:e7:55:44:d3:c0:40:06:e4:66:6e:8d:a6:01:69:86:d2:2a:c0:6b:26:ff:22:f1:35:29:1f:f1:be:7b:c7:f9:69:f9:99:ef:c9:70:30:52:c4:b9:8c:7d:ae:c5:e4:9b:ec:41:d0:b0:28:5c:8c:ae:e9:80:0a:bd:67:d5:9f:d6:18:ef:22:86:72:82:66:f6:bc:c2:3c:19:0f:54:34:59:ae:b0:97:7a:e2:28:58:71:0b:dd:be:c9:bb:f4:cf:12:78:cf:ac:f1:75:54:bd:8c:52:99:a7:51:68:42:08:49:76:9a:8b:b8:ee:2a:ac:99:86:85:8c:0c:ef:09:a2:16:cf:4c:a2:40:6d:20:21:05:8a:e1:db:64:36:c4:c6:f3:11:26:29:cd:2e:05:5c:d9:5e:24:ce:9a:11:7b:b2:56:c1:6e:8f:42:18:3f:7d:f4:d1:d9:d8:39:e1:ea:7d:e1:38:51:d2:88:dd:42:55:2e:e3:af:69:97:af:99:1a:c1:51:f3:7f:59:e0:45:e9:2c:a0:6c:32:53:4f:14:c3:10:df:74:e1:fd:55:b2:60:39:9e:cf:ed:72:a1:93:78:e3:c2:00:a4:97:15:ef:93:bc:5f:c2:93:27:04:33:93:40:39:f4:6a:d0:44:e9:8c:08:32:24:ac:02:25:bb:93:3d:69:30:65:19:0b:dd:30:f7:7a:30:72:81:21:08:2b:85:3b:e1:91:85:f9:7f:8b:95:fe:04:75:18:a3:8d:68:af:4f:a0:7d:70:39:3a:78:54:6a:f9:93:b2:19:d1:d3:18:07:ae:96:e6:4e:5f:cc:2e:04:ca:9b:ff:55:7a:e4:5d:50:10:bc:68:42:57:37:88:4a:69:0d:c7:52:70:d7:42:32:fd:d8:9a:59:48:b5:cf:05:ff:89:06:12:dd:62:b8:f1:03:be:5d:17:6c:54:29:79:8c:0b:fd:59:f3:52:70:90:1a:40:f5:61:5e:a9:b8:be:f6:ee:76:36:d8:be:73:fa:83:0a:b3:ee:4d:74:96:4e:fd:5c:a4:9b:0e:bb:3a:02:05:14:f5:ee:61:4b:c8:98:3c:e6:40:25:64:b7:a8:65:af:bf:c2:82:c6:82:e4:8b:ed:cb:dd:88:4b:49:59:0e:88:08:4f:4e:b6:6c:17:c9:44:d0:9a:86:6d:1c:dc:7c:f7:64:84:ee:4a:8b:b0:d2:8f:e2:73:c7:d4:b3:87:18:b7:68:1d:f6:c1:51:88:5e:86:3a:19:fc:e8:84:77:b3:f1:3d:8c:47:f6:33:0b:89:35:7a:36:14:6b:a0:2b:97:d3:7e:64:55:28:56:3e:1b:10:f9:89"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "1250",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "0",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "8",
+          "quic.dcid": "88:0f:07:39:91:94:2b:03",
+          "quic.scil": "0",
+          "quic.token_length": "0",
+          "quic.length": "1232",
+          "quic.packet_number": "1",
+          "quic.payload": "66:66:9c:ef:b9:66:eb:92:c9:30:05:8c:fa:af:76:a2:2b:03:fa:da:60:45:4c:90:ce:68:d4:d9:c5:16:4c:24:5a:00:a9:bf:a8:29:4f:be:8a:aa:73:b5:ec:8e:46:cf:74:90:fc:5e:b5:5e:fd:70:2e:81:7a:a6:35:e3:5c:1f:5c:f3:57:ed:08:34:48:6b:dd:a3:74:ec:4d:e1:b7:16:ec:e2:55:0b:78:a7:c6:44:14:58:2e:03:75:94:f2:77:fa:67:62:8b:74:30:18:be:09:e4:ed:ba:ca:f6:fc:09:61:a2:82:b0:92:2c:6f:82:7c:e5:23:eb:06:1e:1e:c2:d0:99:41:2d:1b:5b:0c:0e:21:f4:0e:47:ae:ec:c4:d9:7a:9e:6c:43:ea:01:d4:c5:da:4e:72:c0:8d:64:4c:ba:fa:f8:58:6c:1d:b7:f2:86:86:cd:d5:13:4b:b8:93:c9:50:10:7b:ef:24:84:e9:f6:4c:02:1f:df:5b:fd:d7:7a:af:55:5d:12:20:56:b0:c1:43:36:d4:5b:0b:3e:db:a4:be:3b:ff:63:7f:11:80:f6:bb:8f:49:12:4c:43:56:95:60:bf:cc:a1:ff:dd:0f:a5:9d:51:25:d0:a3:99:b4:fa:fa:14:a9:0e:3c:32:11:e0:19:97:e2:fb:0f:df:43:51:5b:3d:ce:35:be:06:c7:00:21:c8:69:c8:5c:b5:30:b5:f9:f1:12:a3:37:b5:29:bc:e6:b7:11:e3:c4:4b:68:e6:9b:01:63:bd:4d:7f:db:49:aa:49:15:ba:d3:26:9b:71:f3:d1:84:ed:d4:3a:95:78:07:43:68:f4:09:79:9d:98:aa:97:bb:6a:e2:3b:ee:23:8f:24:47:8a:14:28:eb:b0:21:4d:7b:b7:cc:30:0a:02:a3:3a:03:64:f1:20:5a:a0:f7:e6:97:a2:8d:88:eb:4d:1a:0a:8d:da:ba:5e:6c:8f:69:03:61:f6:fd:d7:51:85:82:64:eb:2e:29:70:89:cf:2b:7f:21:87:a6:7e:81:1e:33:ff:6f:9b:c7:2f:5c:bb:cd:80:8e:db:44:14:6b:77:51:28:60:97:ab:40:7f:0d:a1:7b:66:76:03:69:69:84:72:47:f9:50:0d:2e:09:73:2b:07:72:89:1f:52:5b:06:27:2b:6c:1a:10:3b:c3:7a:be:fb:e4:8d:66:f4:6d:94:80:05:38:9f:06:3a:97:13:99:d9:de:62:a3:34:95:84:e1:a4:72:9f:42:e5:79:23:8f:61:39:8f:7b:09:50:71:07:43:fc:27:a6:98:ad:68:03:e7:d5:cd:f9:03:c8:92:e9:09:e2:0f:cc:99:43:c4:e4:1f:f5:ce:43:d3:3d:26:1c:87:47:08:67:17:37:01:84:57:bb:c3:8d:d5:30:63:67:f0:e4:5e:9d:a4:4a:8a:96:ec:1a:c2:a8:20:da:65:5b:47:66:02:82:ea:54:b8:03:a1:45:65:03:e0:b0:c9:ad:51:e6:fb:4e:e9:a7:93:94:43:33:2d:a1:1c:ed:d9:8c:37:98:9d:e3:c5:bc:4a:42:b1:c2:14:4a:e5:2b:8d:c5:5c:bf:99:98:e5:37:02:03:f1:7e:71:e3:31:bd:1d:70:23:b6:58:3a:46:8b:7e:a8:55:c2:0b:0d:fc:88:f2:4a:ff:4a:32:48:8e:eb:4a:01:47:e6:1c:9a:3f:2f:6c:b7:7d:43:3c:74:88:7e:48:76:5d:7f:31:b5:43:8e:33:6b:12:f9:8f:41:8b:f9:24:ec:c9:fe:a7:94:fb:3d:91:7f:b1:f9:3f:d1:5f:52:60:5a:79:f9:7b:d2:93:11:f6:f5:da:35:a9:81:78:60:88:60:0d:66:e1:ca:6c:00:49:b1:c8:16:41:92:37:90:0b:e5:1e:78:1b:e7:55:44:d3:c0:40:06:e4:66:6e:8d:a6:01:69:86:d2:2a:c0:6b:26:ff:22:f1:35:29:1f:f1:be:7b:c7:f9:69:f9:99:ef:c9:70:30:52:c4:b9:8c:7d:ae:c5:e4:9b:ec:41:d0:b0:28:5c:8c:ae:e9:80:0a:bd:67:d5:9f:d6:18:ef:22:86:72:82:66:f6:bc:c2:3c:19:0f:54:34:59:ae:b0:97:7a:e2:28:58:71:0b:dd:be:c9:bb:f4:cf:12:78:cf:ac:f1:75:54:bd:8c:52:99:a7:51:68:42:08:49:76:9a:8b:b8:ee:2a:ac:99:86:85:8c:0c:ef:09:a2:16:cf:4c:a2:40:6d:20:21:05:8a:e1:db:64:36:c4:c6:f3:11:26:29:cd:2e:05:5c:d9:5e:24:ce:9a:11:7b:b2:56:c1:6e:8f:42:18:3f:7d:f4:d1:d9:d8:39:e1:ea:7d:e1:38:51:d2:88:dd:42:55:2e:e3:af:69:97:af:99:1a:c1:51:f3:7f:59:e0:45:e9:2c:a0:6c:32:53:4f:14:c3:10:df:74:e1:fd:55:b2:60:39:9e:cf:ed:72:a1:93:78:e3:c2:00:a4:97:15:ef:93:bc:5f:c2:93:27:04:33:93:40:39:f4:6a:d0:44:e9:8c:08:32:24:ac:02:25:bb:93:3d:69:30:65:19:0b:dd:30:f7:7a:30:72:81:21:08:2b:85:3b:e1:91:85:f9:7f:8b:95:fe:04:75:18:a3:8d:68:af:4f:a0:7d:70:39:3a:78:54:6a:f9:93:b2:19:d1:d3:18:07:ae:96:e6:4e:5f:cc:2e:04:ca:9b:ff:55:7a:e4:5d:50:10:bc:68:42:57:37:88:4a:69:0d:c7:52:70:d7:42:32:fd:d8:9a:59:48:b5:cf:05:ff:89:06:12:dd:62:b8:f1:03:be:5d:17:6c:54:29:79:8c:0b:fd:59:f3:52:70:90:1a:40:f5:61:5e:a9:b8:be:f6:ee:76:36:d8:be:73:fa:83:0a:b3:ee:4d:74:96:4e:fd:5c:a4:9b:0e:bb:3a:02:05:14:f5:ee:61:4b:c8:98:3c:e6:40:25:64:b7:a8:65:af:bf:c2:82:c6:82:e4:8b:ed:cb:dd:88:4b:49:59:0e:88:08:4f:4e:b6:6c:17:c9:44:d0:9a:86:6d:1c:dc:7c:f7:64:84:ee:4a:8b:b0:d2:8f:e2:73:c7:d4:b3:87:18:b7:68:1d:f6:c1:51:88:5e:86:3a:19:fc:e8:84:77:b3:f1:3d:8c:47:f6:33:0b:89:35:7a:36:14:6b:a0:2b:97:d3:7e:64:55:28:56:3e:1b:10:f9:89",
+          "quic.frame": {
+            "quic.frame_type": "0",
+            "quic.padding_length": "47"
+          },
+          "quic.frame": {
+            "quic.frame_type": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "0",
+            "quic.padding_length": "251"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "41",
+            "quic.crypto.length": "28",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "256",
+            "quic.crypto.length": "36",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "0",
+            "quic.padding_length": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "148",
+            "quic.crypto.length": "25",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "0",
+            "quic.padding_length": "417"
+          },
+          "quic.frame": {
+            "quic.frame_type": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "206",
+            "quic.crypto.length": "46",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "252",
+            "quic.crypto.length": "4",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "173",
+            "quic.crypto.length": "33",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "0",
+            "quic.padding_length": "171"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "0",
+            "quic.crypto.length": "41",
+            "quic.crypto.crypto_data": ""
+          },
+          "quic.frame": {
+            "quic.frame_type": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "69",
+            "quic.crypto.length": "79",
+            "quic.crypto.crypto_data": "",
+            "quic.crypto.fragments": {
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment": "19",
+              "quic.crypto.fragment.count": "8"
+            },
+            "tls": {
+              "tls.handshake": {
+                "tls.handshake.type": "1",
+                "tls.handshake.length": "288",
+                "tls.handshake.version": "0x0303",
+                "tls.handshake.random": "90:f1:c8:e8:f3:39:1f:20:b4:c0:9e:69:2b:88:04:e3:72:a2:b9:9f:e3:92:99:58:0a:df:35:b1:4a:ed:b5:4b",
+                "tls.handshake.session_id_length": "0",
+                "tls.handshake.cipher_suites_length": "6",
+                "tls.handshake.ciphersuites": {
+                  "tls.handshake.ciphersuite": "0x1301",
+                  "tls.handshake.ciphersuite": "0x1302",
+                  "tls.handshake.ciphersuite": "0x1303"
+                },
+                "tls.handshake.comp_methods_length": "1",
+                "tls.handshake.comp_methods": {
+                  "tls.handshake.comp_method": "0"
+                },
+                "tls.handshake.extensions_length": "241",
+                "Extension: quic_transport_parameters (len=97)": {
+                  "tls.handshake.extension.type": "57",
+                  "tls.handshake.extension.len": "97",
+                  "Parameter: google_connection_options (len=4)": {
+                    "tls.quic.parameter.type": "12584",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "52:56:43:4d",
+                    "tls.quic.parameter.google.connection_options": "52:56:43:4d"
+                  },
+                  "Parameter: max_idle_timeout (len=4) 30000 ms": {
+                    "tls.quic.parameter.type": "1",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:00:75:30",
+                    "tls.quic.parameter.max_idle_timeout": "30000"
+                  },
+                  "Parameter: initial_max_streams_uni (len=2) 103": {
+                    "tls.quic.parameter.type": "9",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "40:67",
+                    "tls.quic.parameter.initial_max_streams_uni": "103"
+                  },
+                  "Parameter: max_datagram_frame_size (len=4) 65536": {
+                    "tls.quic.parameter.type": "32",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:01:00:00",
+                    "tls.quic.parameter.max_datagram_frame_size": "65536"
+                  },
+                  "Parameter: google_quic_version (len=4)": {
+                    "tls.quic.parameter.type": "18258",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "00:00:00:01",
+                    "tls.quic.parameter.google.quic_version": "0x00000001"
+                  },
+                  "Parameter: version_information (len=12)": {
+                    "tls.quic.parameter.type": "16741339",
+                    "tls.quic.parameter.length": "12",
+                    "tls.quic.parameter.value": "00:00:00:01:00:00:00:01:3a:0a:5a:0a",
+                    "tls.quic.parameter.vi.chosen_version": "0x00000001",
+                    "tls.quic.parameter.vi.other_version": "0x00000001",
+                    "tls.quic.parameter.vi.other_version": "0x3a0a5a0a"
+                  },
+                  "Parameter: max_udp_payload_size (len=2) 1472": {
+                    "tls.quic.parameter.type": "3",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "45:c0",
+                    "tls.quic.parameter.max_udp_payload_size": "1472"
+                  },
+                  "Parameter: initial_max_stream_data_bidi_local (len=4) 6291456": {
+                    "tls.quic.parameter.type": "5",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:60:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_bidi_local": "6291456"
+                  },
+                  "Parameter: initial_max_stream_data_uni (len=4) 6291456": {
+                    "tls.quic.parameter.type": "7",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:60:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_uni": "6291456"
+                  },
+                  "Parameter: initial_max_streams_bidi (len=2) 100": {
+                    "tls.quic.parameter.type": "8",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "40:64",
+                    "tls.quic.parameter.initial_max_streams_bidi": "100"
+                  },
+                  "Parameter: GREASE (len=5)": {
+                    "tls.quic.parameter.type": "946640291158195591",
+                    "tls.quic.parameter.length": "5",
+                    "tls.quic.parameter.value": "d7:d3:25:19:60"
+                  },
+                  "Parameter: initial_source_connection_id (len=0)": {
+                    "tls.quic.parameter.type": "15",
+                    "tls.quic.parameter.length": "0",
+                    "tls.quic.parameter.value": "",
+                    "tls.quic.parameter.initial_source_connection_id": ""
+                  },
+                  "Parameter: initial_max_data (len=4) 15728640": {
+                    "tls.quic.parameter.type": "4",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:f0:00:00",
+                    "tls.quic.parameter.initial_max_data": "15728640"
+                  },
+                  "Parameter: initial_max_stream_data_bidi_remote (len=4) 6291456": {
+                    "tls.quic.parameter.type": "6",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:60:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_bidi_remote": "6291456"
+                  }
+                },
+                "Extension: supported_versions (len=3)": {
+                  "tls.handshake.extension.type": "43",
+                  "tls.handshake.extension.len": "3",
+                  "tls.handshake.extensions.supported_versions_len": "2",
+                  "tls.handshake.extensions.supported_version": "0x0304"
+                },
+                "Extension: application_settings (len=5)": {
+                  "tls.handshake.extension.type": "17513",
+                  "tls.handshake.extension.len": "5",
+                  "tls.handshake.extensions_alps_len": "3",
+                  "tls.handshake.extensions_alps_alpn_list": {
+                    "tls.handshake.extensions_alps_alpn_str_len": "2",
+                    "tls.handshake.extensions_alps_alpn_str": "h3"
+                  }
+                },
+                "Extension: key_share (len=38)": {
+                  "tls.handshake.extension.type": "51",
+                  "tls.handshake.extension.len": "38",
+                  "Key Share extension": {
+                    "tls.handshake.extensions_key_share_client_length": "36",
+                    "Key Share Entry: Group: x25519, Key Exchange length: 32": {
+                      "tls.handshake.extensions_key_share_group": "29",
+                      "tls.handshake.extensions_key_share_key_exchange_length": "32",
+                      "tls.handshake.extensions_key_share_key_exchange": "7b:79:b3:76:a3:af:c3:0b:ad:2e:e8:72:28:bc:f8:b9:42:6c:c7:06:4c:42:ad:57:4a:fc:e0:61:4f:4c:7b:2d"
+                    }
+                  }
+                },
+                "Extension: compress_certificate (len=3)": {
+                  "tls.handshake.extension.type": "27",
+                  "tls.handshake.extension.len": "3",
+                  "tls.compress_certificate.algorithms_length": "2",
+                  "tls.compress_certificate.algorithm": "2"
+                },
+                "Extension: server_name (len=20)": {
+                  "tls.handshake.extension.type": "0",
+                  "tls.handshake.extension.len": "20",
+                  "Server Name Indication extension": {
+                    "tls.handshake.extensions_server_name_list_len": "18",
+                    "tls.handshake.extensions_server_name_type": "0",
+                    "tls.handshake.extensions_server_name_len": "15",
+                    "tls.handshake.extensions_server_name": "www.example.org"
+                  }
+                },
+                "Extension: psk_key_exchange_modes (len=2)": {
+                  "tls.handshake.extension.type": "45",
+                  "tls.handshake.extension.len": "2",
+                  "tls.extension.psk_ke_modes_length": "1",
+                  "tls.extension.psk_ke_mode": "1"
+                },
+                "Extension: application_layer_protocol_negotiation (len=5)": {
+                  "tls.handshake.extension.type": "16",
+                  "tls.handshake.extension.len": "5",
+                  "tls.handshake.extensions_alpn_len": "3",
+                  "tls.handshake.extensions_alpn_list": {
+                    "tls.handshake.extensions_alpn_str_len": "2",
+                    "tls.handshake.extensions_alpn_str": "h3"
+                  }
+                },
+                "Extension: signature_algorithms (len=20)": {
+                  "tls.handshake.extension.type": "13",
+                  "tls.handshake.extension.len": "20",
+                  "tls.handshake.sig_hash_alg_len": "18",
+                  "tls.handshake.sig_hash_algs": {
+                    "tls.handshake.sig_hash_alg": "0x0403",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "4",
+                      "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0804",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "8",
+                      "tls.handshake.sig_hash_sig": "4"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0401",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "4",
+                      "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0503",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "5",
+                      "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0805",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "8",
+                      "tls.handshake.sig_hash_sig": "5"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0501",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "5",
+                      "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0806",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "8",
+                      "tls.handshake.sig_hash_sig": "6"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0601",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "6",
+                      "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0201",
+                    "tls.handshake.sig_hash_alg_tree": {
+                      "tls.handshake.sig_hash_hash": "2",
+                      "tls.handshake.sig_hash_sig": "1"
+                    }
+                  }
+                },
+                "Extension: supported_groups (len=8)": {
+                  "tls.handshake.extension.type": "10",
+                  "tls.handshake.extension.len": "8",
+                  "tls.handshake.extensions_supported_groups_length": "6",
+                  "tls.handshake.extensions_supported_groups": {
+                    "tls.handshake.extensions_supported_group": "0x001d",
+                    "tls.handshake.extensions_supported_group": "0x0017",
+                    "tls.handshake.extensions_supported_group": "0x0018"
+                  }
+                },
+                "tls.handshake.ja3_full": "771,4865-4866-4867,57-43-17513-51-27-0-45-16-13-10,29-23-24,",
+                "tls.handshake.ja3": "4db81d3ec66441834e6751b127b38605"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.734692000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.734692000",
+          "frame.time_delta": "0.006400000",
+          "frame.time_delta_displayed": "0.006400000",
+          "frame.time_relative": "5.396192000",
+          "frame.number": "20",
+          "frame.len": "1292",
+          "frame.cap_len": "1292",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:tls:tls",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1278",
+          "ip.id": "0xe0cc",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5720",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "1258",
+          "udp.checksum": "0x02fe",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.006400000",
+            "udp.time_delta": "0.006400000"
+          },
+          "udp.payload": "c0:00:00:00:01:00:08:88:0f:07:39:91:94:2b:03:00:40:75:d5:28:33:ed:62:ab:e9:73:ea:7f:a3:3c:bd:c4:cb:54:21:14:d3:39:12:06:cf:1a:e0:63:7a:77:c1:df:5a:55:d0:99:37:d8:78:38:c3:ae:b4:77:0c:06:b4:08:fd:34:b2:90:e9:d1:1b:00:53:cb:c1:c0:ad:51:a3:73:e7:f7:f0:9c:66:00:09:c5:21:91:3f:6a:8d:00:9c:58:2b:26:b6:59:2b:87:81:96:9b:56:5e:1f:d5:36:5e:5e:8d:70:72:14:0e:f8:41:e9:45:0d:d8:c8:67:3a:69:24:83:d5:09:ea:6f:0d:6c:ea:00:00:00:01:00:08:88:0f:07:39:91:94:2b:03:44:4a:66:95:d6:c7:5a:6b:de:c4:fc:2b:c6:c9:2e:a9:84:2e:69:16:4b:8b:67:a2:2a:52:e9:92:fd:9b:7b:33:ea:62:9c:ba:43:da:f3:6f:e9:69:53:4c:3c:57:20:0f:39:47:86:93:f5:bc:ef:1c:56:c7:41:b0:54:f1:0b:89:4a:36:ed:2b:ae:ef:26:e2:0b:3d:3b:ab:6d:9e:04:92:93:c7:59:41:6e:f6:e3:93:4c:d4:37:68:fa:c0:86:3d:a6:f5:d2:67:0e:13:89:4c:99:af:71:73:d3:f8:20:23:55:e5:e8:a1:29:16:7d:8b:53:d8:61:b9:9d:70:be:d7:9e:28:cd:20:aa:32:1a:95:fd:39:a0:50:40:46:2b:69:c1:3b:e0:e3:0a:11:13:33:b2:e2:1d:2f:04:f7:82:30:8f:a9:ab:a6:a1:63:2f:f3:d6:fc:d5:83:b2:3c:36:d9:38:96:9c:b7:b2:d6:f1:85:5f:0f:1b:b1:7d:56:82:bd:f7:c6:b9:11:11:e6:ff:bd:14:8d:32:cb:4f:60:89:00:f4:ea:d9:e8:aa:29:ab:11:03:8b:19:bf:3e:10:85:8e:3f:4d:37:ea:e8:55:a6:f2:65:dc:38:99:12:6f:25:d5:6d:b6:a2:87:ca:93:b0:86:56:7d:5a:54:aa:86:34:55:ed:ce:07:99:92:2f:46:d1:9f:94:9a:f7:82:15:06:27:6c:d4:31:67:a8:d4:c6:22:2a:a7:7a:d5:9a:8a:f5:61:82:74:dc:7c:48:a7:e2:c3:a1:b5:9b:1f:fb:e1:48:e2:46:e9:f5:84:e8:15:0e:33:4f:a6:df:3e:66:0f:98:c6:e2:f4:20:13:8f:d2:41:9b:50:b0:b4:56:2a:20:a7:e0:5b:7b:ed:a7:7a:69:63:c4:fe:70:91:5b:e3:88:db:34:04:3a:49:51:5e:43:1e:12:07:f6:32:e6:54:33:b7:35:c4:2c:1c:d7:07:ce:ab:04:1e:46:c8:59:ca:79:5f:1b:cc:02:94:11:50:89:72:54:20:c3:ed:91:cf:a5:3f:1f:ba:30:ce:c0:7b:a3:bd:af:af:7f:c5:b1:ca:13:6e:2a:44:fc:fa:fa:18:4a:8e:8b:d0:33:da:85:e1:75:bd:34:eb:1d:a9:61:df:8a:20:7c:b3:bf:36:67:92:9f:76:b1:f4:1d:e3:32:df:1d:8f:3c:a1:cb:52:34:a7:e5:6f:c9:00:96:8c:d2:05:21:bd:e8:2a:79:b9:95:a4:19:7e:0b:5c:c9:ea:c2:65:73:d0:27:29:11:a8:48:eb:c6:04:2f:1d:eb:20:9e:c0:25:9e:a2:f1:90:e6:fa:ea:6e:07:7c:b9:76:84:5f:f1:b4:32:6c:41:cf:7b:7d:5b:c3:de:65:0d:62:c3:f6:54:63:28:7f:fd:71:58:b7:2f:36:06:1a:bf:0a:57:19:17:26:08:d1:e9:d2:a4:1a:4c:1a:b2:55:df:ea:57:f9:97:9e:4d:00:67:e7:ff:86:fa:c2:91:f1:c0:4f:e5:1e:14:c2:fc:86:55:ac:b0:09:76:8b:64:9d:4a:93:38:0b:18:05:c4:8a:77:9b:63:a5:9f:29:4d:a4:2d:c5:82:cc:58:83:6a:9f:5a:72:d9:94:5b:d6:35:8d:34:0c:b6:09:f2:c0:64:76:57:56:e8:1f:08:86:d8:0a:74:4b:68:f2:cd:92:9b:10:69:ee:16:02:17:bb:db:ca:ab:3f:bd:ee:ce:a2:e7:ea:fa:f6:93:f4:00:c6:c8:73:13:a5:b6:fb:63:0f:da:6a:80:ce:ea:23:53:cc:89:bf:44:f8:ea:53:e0:af:11:cc:08:97:9f:b7:48:f0:d2:87:4f:e2:c2:58:1e:ed:50:48:3e:59:27:05:7e:cf:08:58:5b:21:b7:15:a1:ec:ca:96:3d:18:34:76:6f:aa:12:7e:51:e1:c3:1e:b5:0e:65:22:6d:d7:f3:3d:e7:5b:e6:33:33:a6:5f:be:c9:a2:2b:8e:e8:db:31:14:30:f5:17:9c:e2:b7:07:fb:d8:b2:60:94:94:4e:a8:af:22:78:4f:24:38:94:fc:91:90:db:6c:05:0d:c9:29:ea:35:cf:20:50:c1:ed:74:5c:7e:46:ba:6d:26:d3:91:33:9f:63:fd:fe:4f:83:48:fa:fe:85:8f:ef:28:c3:57:3e:7d:0c:41:b7:7d:f8:a0:69:75:dd:cb:b9:aa:64:07:6c:23:60:9a:60:88:77:a5:ab:61:ca:30:9e:ce:db:08:6b:4f:bd:81:48:ba:02:a4:1e:9b:bc:b3:6b:c4:0a:40:e8:14:9e:fc:cb:6e:da:65:36:86:20:40:2a:a5:21:22:33:64:44:ba:40:a4:c2:d2:7c:24:fd:c1:ff:1c:a1:2c:60:53:58:cf:1b:49:30:b0:cb:4b:16:17:7a:4f:04:dd:95:ed:e9:00:5d:60:74:89:b5:dd:7f:00:91:df:57:ba:29:21:48:19:a7:b9:7f:91:23:dd:3f:de:54:c9:63:83:a4:04:00:4f:af:51:c7:54:8e:89:36:c4:7d:ae:2e:5d:bb:ab:c3:71:7e:13:2c:a3:63:cc:61:1c:4e:b5:c5:12:7c:5b:8c:d2:20:6f:6c:b9:c8:05:d4:13:00:5b:4e:a0:b5:d8:b0:e5:b9:08:61:55:07:a4:8f:89:3b:fa:4d:0d:7b:0f:f0:50:31:92:cb:70:94:77:1a:0c:af:ea:e5:72:4e:08:a6:89:db:f9:64:db:e3:5f:10:67:ba:b1:c7:1e:29:68:fa:b5:8c:46:c6:aa:2c:52:51:98:ff:ad:5d:31:a8:fc:fb:f5:23:cc:b6:7f:cd:ba:51:d2:40:b9:38:58:0d:fc:2b:f2:66:df:9e:66:3b:cc:92:e2:26:3d:6d:9a:cd"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "135",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "0",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "0",
+          "quic.scil": "8",
+          "quic.scid": "88:0f:07:39:91:94:2b:03",
+          "quic.token_length": "0",
+          "quic.length": "117",
+          "quic.packet_number": "1",
+          "quic.payload": "28:33:ed:62:ab:e9:73:ea:7f:a3:3c:bd:c4:cb:54:21:14:d3:39:12:06:cf:1a:e0:63:7a:77:c1:df:5a:55:d0:99:37:d8:78:38:c3:ae:b4:77:0c:06:b4:08:fd:34:b2:90:e9:d1:1b:00:53:cb:c1:c0:ad:51:a3:73:e7:f7:f0:9c:66:00:09:c5:21:91:3f:6a:8d:00:9c:58:2b:26:b6:59:2b:87:81:96:9b:56:5e:1f:d5:36:5e:5e:8d:70:72:14:0e:f8:41:e9:45:0d:d8:c8:67:3a:69:24:83:d5:09:ea:6f:0d:6c",
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "1",
+            "quic.ack.ack_delay": "744",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "0"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "0",
+            "quic.crypto.length": "90",
+            "quic.crypto.crypto_data": "",
+            "tls": {
+              "tls.handshake": {
+                "tls.handshake.type": "2",
+                "tls.handshake.length": "86",
+                "tls.handshake.version": "0x0303",
+                "tls.handshake.random": "5f:f2:61:77:8d:d3:d2:00:34:ae:7a:05:02:16:50:e5:8f:b0:9c:a3:48:4d:3a:4f:1a:73:52:82:b1:7f:94:b4",
+                "tls.handshake.session_id_length": "0",
+                "tls.handshake.ciphersuite": "0x1301",
+                "tls.handshake.comp_method": "0",
+                "tls.handshake.extensions_length": "46",
+                "Extension: key_share (len=36)": {
+                  "tls.handshake.extension.type": "51",
+                  "tls.handshake.extension.len": "36",
+                  "Key Share extension": {
+                    "Key Share Entry: Group: x25519, Key Exchange length: 32": {
+                      "tls.handshake.extensions_key_share_group": "29",
+                      "tls.handshake.extensions_key_share_key_exchange_length": "32",
+                      "tls.handshake.extensions_key_share_key_exchange": "84:88:de:dc:da:8d:16:ac:bf:3a:9c:d2:d9:80:22:9c:61:49:28:00:e8:ff:70:ef:9d:68:ce:d7:75:54:2c:29"
+                    }
+                  }
+                },
+                "Extension: supported_versions (len=2)": {
+                  "tls.handshake.extension.type": "43",
+                  "tls.handshake.extension.len": "2",
+                  "tls.handshake.extensions.supported_version": "0x0304"
+                },
+                "tls.handshake.ja3s_full": "771,4865,51-43",
+                "tls.handshake.ja3s": "eb1d94daa7e0344597e756a1fb6e7054"
+              }
+            }
+          }
+        },
+        "quic": {
+          "quic.packet_length": "1115",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "2",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "0",
+          "quic.scil": "8",
+          "quic.scid": "88:0f:07:39:91:94:2b:03",
+          "quic.length": "1098",
+          "quic.packet_number": "2",
+          "quic.payload": "95:d6:c7:5a:6b:de:c4:fc:2b:c6:c9:2e:a9:84:2e:69:16:4b:8b:67:a2:2a:52:e9:92:fd:9b:7b:33:ea:62:9c:ba:43:da:f3:6f:e9:69:53:4c:3c:57:20:0f:39:47:86:93:f5:bc:ef:1c:56:c7:41:b0:54:f1:0b:89:4a:36:ed:2b:ae:ef:26:e2:0b:3d:3b:ab:6d:9e:04:92:93:c7:59:41:6e:f6:e3:93:4c:d4:37:68:fa:c0:86:3d:a6:f5:d2:67:0e:13:89:4c:99:af:71:73:d3:f8:20:23:55:e5:e8:a1:29:16:7d:8b:53:d8:61:b9:9d:70:be:d7:9e:28:cd:20:aa:32:1a:95:fd:39:a0:50:40:46:2b:69:c1:3b:e0:e3:0a:11:13:33:b2:e2:1d:2f:04:f7:82:30:8f:a9:ab:a6:a1:63:2f:f3:d6:fc:d5:83:b2:3c:36:d9:38:96:9c:b7:b2:d6:f1:85:5f:0f:1b:b1:7d:56:82:bd:f7:c6:b9:11:11:e6:ff:bd:14:8d:32:cb:4f:60:89:00:f4:ea:d9:e8:aa:29:ab:11:03:8b:19:bf:3e:10:85:8e:3f:4d:37:ea:e8:55:a6:f2:65:dc:38:99:12:6f:25:d5:6d:b6:a2:87:ca:93:b0:86:56:7d:5a:54:aa:86:34:55:ed:ce:07:99:92:2f:46:d1:9f:94:9a:f7:82:15:06:27:6c:d4:31:67:a8:d4:c6:22:2a:a7:7a:d5:9a:8a:f5:61:82:74:dc:7c:48:a7:e2:c3:a1:b5:9b:1f:fb:e1:48:e2:46:e9:f5:84:e8:15:0e:33:4f:a6:df:3e:66:0f:98:c6:e2:f4:20:13:8f:d2:41:9b:50:b0:b4:56:2a:20:a7:e0:5b:7b:ed:a7:7a:69:63:c4:fe:70:91:5b:e3:88:db:34:04:3a:49:51:5e:43:1e:12:07:f6:32:e6:54:33:b7:35:c4:2c:1c:d7:07:ce:ab:04:1e:46:c8:59:ca:79:5f:1b:cc:02:94:11:50:89:72:54:20:c3:ed:91:cf:a5:3f:1f:ba:30:ce:c0:7b:a3:bd:af:af:7f:c5:b1:ca:13:6e:2a:44:fc:fa:fa:18:4a:8e:8b:d0:33:da:85:e1:75:bd:34:eb:1d:a9:61:df:8a:20:7c:b3:bf:36:67:92:9f:76:b1:f4:1d:e3:32:df:1d:8f:3c:a1:cb:52:34:a7:e5:6f:c9:00:96:8c:d2:05:21:bd:e8:2a:79:b9:95:a4:19:7e:0b:5c:c9:ea:c2:65:73:d0:27:29:11:a8:48:eb:c6:04:2f:1d:eb:20:9e:c0:25:9e:a2:f1:90:e6:fa:ea:6e:07:7c:b9:76:84:5f:f1:b4:32:6c:41:cf:7b:7d:5b:c3:de:65:0d:62:c3:f6:54:63:28:7f:fd:71:58:b7:2f:36:06:1a:bf:0a:57:19:17:26:08:d1:e9:d2:a4:1a:4c:1a:b2:55:df:ea:57:f9:97:9e:4d:00:67:e7:ff:86:fa:c2:91:f1:c0:4f:e5:1e:14:c2:fc:86:55:ac:b0:09:76:8b:64:9d:4a:93:38:0b:18:05:c4:8a:77:9b:63:a5:9f:29:4d:a4:2d:c5:82:cc:58:83:6a:9f:5a:72:d9:94:5b:d6:35:8d:34:0c:b6:09:f2:c0:64:76:57:56:e8:1f:08:86:d8:0a:74:4b:68:f2:cd:92:9b:10:69:ee:16:02:17:bb:db:ca:ab:3f:bd:ee:ce:a2:e7:ea:fa:f6:93:f4:00:c6:c8:73:13:a5:b6:fb:63:0f:da:6a:80:ce:ea:23:53:cc:89:bf:44:f8:ea:53:e0:af:11:cc:08:97:9f:b7:48:f0:d2:87:4f:e2:c2:58:1e:ed:50:48:3e:59:27:05:7e:cf:08:58:5b:21:b7:15:a1:ec:ca:96:3d:18:34:76:6f:aa:12:7e:51:e1:c3:1e:b5:0e:65:22:6d:d7:f3:3d:e7:5b:e6:33:33:a6:5f:be:c9:a2:2b:8e:e8:db:31:14:30:f5:17:9c:e2:b7:07:fb:d8:b2:60:94:94:4e:a8:af:22:78:4f:24:38:94:fc:91:90:db:6c:05:0d:c9:29:ea:35:cf:20:50:c1:ed:74:5c:7e:46:ba:6d:26:d3:91:33:9f:63:fd:fe:4f:83:48:fa:fe:85:8f:ef:28:c3:57:3e:7d:0c:41:b7:7d:f8:a0:69:75:dd:cb:b9:aa:64:07:6c:23:60:9a:60:88:77:a5:ab:61:ca:30:9e:ce:db:08:6b:4f:bd:81:48:ba:02:a4:1e:9b:bc:b3:6b:c4:0a:40:e8:14:9e:fc:cb:6e:da:65:36:86:20:40:2a:a5:21:22:33:64:44:ba:40:a4:c2:d2:7c:24:fd:c1:ff:1c:a1:2c:60:53:58:cf:1b:49:30:b0:cb:4b:16:17:7a:4f:04:dd:95:ed:e9:00:5d:60:74:89:b5:dd:7f:00:91:df:57:ba:29:21:48:19:a7:b9:7f:91:23:dd:3f:de:54:c9:63:83:a4:04:00:4f:af:51:c7:54:8e:89:36:c4:7d:ae:2e:5d:bb:ab:c3:71:7e:13:2c:a3:63:cc:61:1c:4e:b5:c5:12:7c:5b:8c:d2:20:6f:6c:b9:c8:05:d4:13:00:5b:4e:a0:b5:d8:b0:e5:b9:08:61:55:07:a4:8f:89:3b:fa:4d:0d:7b:0f:f0:50:31:92:cb:70:94:77:1a:0c:af:ea:e5:72:4e:08:a6:89:db:f9:64:db:e3:5f:10:67:ba:b1:c7:1e:29:68:fa:b5:8c:46:c6:aa:2c:52:51:98:ff:ad:5d:31:a8:fc:fb:f5:23:cc:b6:7f:cd:ba:51:d2:40:b9:38:58:0d:fc:2b:f2:66:df:9e:66:3b:cc:92:e2:26:3d:6d:9a:cd",
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "0",
+            "quic.crypto.length": "1077",
+            "quic.crypto.crypto_data": "",
+            "tls": {
+              "tls.handshake": {
+                "tls.handshake.type": "8",
+                "tls.handshake.length": "196",
+                "tls.handshake.extensions_length": "194",
+                "Extension: server_name (len=0)": {
+                  "tls.handshake.extension.type": "0",
+                  "tls.handshake.extension.len": "0"
+                },
+                "Extension: application_layer_protocol_negotiation (len=5)": {
+                  "tls.handshake.extension.type": "16",
+                  "tls.handshake.extension.len": "5",
+                  "tls.handshake.extensions_alpn_len": "3",
+                  "tls.handshake.extensions_alpn_list": {
+                    "tls.handshake.extensions_alpn_str_len": "2",
+                    "tls.handshake.extensions_alpn_str": "h3"
+                  }
+                },
+                "Extension: quic_transport_parameters (len=173)": {
+                  "tls.handshake.extension.type": "57",
+                  "tls.handshake.extension.len": "173",
+                  "Parameter: initial_max_stream_data_uni (len=4) 65536": {
+                    "tls.quic.parameter.type": "7",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:01:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_uni": "65536"
+                  },
+                  "Parameter: max_datagram_frame_size (len=4) 65536": {
+                    "tls.quic.parameter.type": "32",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:01:00:00",
+                    "tls.quic.parameter.max_datagram_frame_size": "65536"
+                  },
+                  "Parameter: google_quic_version (len=29)": {
+                    "tls.quic.parameter.type": "18258",
+                    "tls.quic.parameter.length": "29",
+                    "tls.quic.parameter.value": "00:00:00:01:18:6b:33:43:cf:00:00:00:01:ff:00:00:1d:51:30:35:30:51:30:34:36:51:30:34:33",
+                    "tls.quic.parameter.google.quic_version": "0x00000001",
+                    "tls.quic.parameter.google.supported_versions_length": "24",
+                    "tls.quic.parameter.google.supported_version": "0x6b3343cf",
+                    "tls.quic.parameter.google.supported_version": "0x00000001",
+                    "tls.quic.parameter.google.supported_version": "0xff00001d",
+                    "tls.quic.parameter.google.supported_version": "0x51303530",
+                    "tls.quic.parameter.google.supported_version": "0x51303436",
+                    "tls.quic.parameter.google.supported_version": "0x51303433"
+                  },
+                  "Parameter: initial_max_stream_data_bidi_local (len=4) 65536": {
+                    "tls.quic.parameter.type": "5",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:01:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_bidi_local": "65536"
+                  },
+                  "Parameter: GREASE (len=7)": {
+                    "tls.quic.parameter.type": "4070636950748114698",
+                    "tls.quic.parameter.length": "7",
+                    "tls.quic.parameter.value": "cd:94:fb:01:69:fb:09"
+                  },
+                  "Parameter: max_idle_timeout (len=4) 600000 ms": {
+                    "tls.quic.parameter.type": "1",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:09:27:c0",
+                    "tls.quic.parameter.max_idle_timeout": "600000"
+                  },
+                  "Parameter: stateless_reset_token (len=16)": {
+                    "tls.quic.parameter.type": "2",
+                    "tls.quic.parameter.length": "16",
+                    "tls.quic.parameter.value": "df:b4:36:41:1c:af:27:3e:91:96:65:e9:53:db:a1:4c",
+                    "tls.quic.parameter.stateless_reset_token": "df:b4:36:41:1c:af:27:3e:91:96:65:e9:53:db:a1:4c"
+                  },
+                  "Parameter: initial_source_connection_id (len=8)": {
+                    "tls.quic.parameter.type": "15",
+                    "tls.quic.parameter.length": "8",
+                    "tls.quic.parameter.value": "88:0f:07:39:91:94:2b:03",
+                    "tls.quic.parameter.initial_source_connection_id": "88:0f:07:39:91:94:2b:03"
+                  },
+                  "Parameter: initial_max_streams_bidi (len=2) 100": {
+                    "tls.quic.parameter.type": "8",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "40:64",
+                    "tls.quic.parameter.initial_max_streams_bidi": "100"
+                  },
+                  "Parameter: initial_max_streams_uni (len=2) 103": {
+                    "tls.quic.parameter.type": "9",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "40:67",
+                    "tls.quic.parameter.initial_max_streams_uni": "103"
+                  },
+                  "Parameter: max_udp_payload_size (len=2) 1472": {
+                    "tls.quic.parameter.type": "3",
+                    "tls.quic.parameter.length": "2",
+                    "tls.quic.parameter.value": "45:c0",
+                    "tls.quic.parameter.max_udp_payload_size": "1472"
+                  },
+                  "Parameter: original_destination_connection_id (len=8)": {
+                    "tls.quic.parameter.type": "0",
+                    "tls.quic.parameter.length": "8",
+                    "tls.quic.parameter.value": "88:0f:07:39:91:94:2b:03",
+                    "tls.quic.parameter.original_destination_connection_id": "88:0f:07:39:91:94:2b:03"
+                  },
+                  "Parameter: version_information (len=32)": {
+                    "tls.quic.parameter.type": "16741339",
+                    "tls.quic.parameter.length": "32",
+                    "tls.quic.parameter.value": "00:00:00:01:6b:33:43:cf:ba:1a:ea:2a:00:00:00:01:ff:00:00:1d:51:30:35:30:51:30:34:36:51:30:34:33",
+                    "tls.quic.parameter.vi.chosen_version": "0x00000001",
+                    "tls.quic.parameter.vi.other_version": "0x6b3343cf",
+                    "tls.quic.parameter.vi.other_version": "0xba1aea2a",
+                    "tls.quic.parameter.vi.other_version": "0x00000001",
+                    "tls.quic.parameter.vi.other_version": "0xff00001d",
+                    "tls.quic.parameter.vi.other_version": "0x51303530",
+                    "tls.quic.parameter.vi.other_version": "0x51303436",
+                    "tls.quic.parameter.vi.other_version": "0x51303433"
+                  },
+                  "Parameter: initial_max_stream_data_bidi_remote (len=4) 65536": {
+                    "tls.quic.parameter.type": "6",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:01:00:00",
+                    "tls.quic.parameter.initial_max_stream_data_bidi_remote": "65536"
+                  },
+                  "Parameter: initial_max_data (len=4) 1048576": {
+                    "tls.quic.parameter.type": "4",
+                    "tls.quic.parameter.length": "4",
+                    "tls.quic.parameter.value": "80:10:00:00",
+                    "tls.quic.parameter.initial_max_data": "1048576"
+                  }
+                },
+                "Extension: application_settings (len=0)": {
+                  "tls.handshake.extension.type": "17513",
+                  "tls.handshake.extension.len": "0"
+                }
+              },
+              "tls.handshake": "",
+              "tls.handshake.reassembled_in": "21"
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.734859000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.734859000",
+          "frame.time_delta": "0.000167000",
+          "frame.time_delta_displayed": "0.000167000",
+          "frame.time_relative": "5.396359000",
+          "frame.number": "21",
+          "frame.len": "532",
+          "frame.cap_len": "532",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:tls:x509sat:x509sat:x509sat:x509sat:x509sat:x509sat:x509ce:x509ce:x509ce:x509ce:x509ce:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "518",
+          "ip.id": "0xe0cd",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5a17",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "498",
+          "udp.checksum": "0x0006",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.006567000",
+            "udp.time_delta": "0.000167000"
+          },
+          "udp.payload": "e7:00:00:00:01:00:08:88:0f:07:39:91:94:2b:03:41:9a:25:71:4a:c7:49:8c:14:13:8b:15:1c:fe:ed:99:61:aa:77:25:92:97:0d:3e:6b:71:36:f6:7d:a6:9f:d9:48:e8:3c:e6:dd:b0:24:15:48:0a:fb:0c:e8:96:09:52:0c:95:42:1d:12:eb:b4:fb:75:45:0b:14:ca:ad:5c:25:3e:9e:89:31:b6:bc:3f:c1:4b:49:b6:b0:90:80:e1:12:38:e9:d8:43:b7:b2:4b:b6:7f:01:c8:9e:d0:f6:c6:9a:e8:22:ac:bf:86:ae:57:8d:80:69:ab:69:8a:0b:8f:90:69:d4:c6:a9:c6:4c:44:c9:16:b5:63:60:5b:61:d2:5c:ec:20:3e:60:06:70:48:c6:e2:d3:2a:78:df:c7:e8:4f:46:02:86:9c:e6:a3:00:13:ee:a0:94:a3:41:e6:dd:08:5a:3f:f2:37:b9:4b:fb:41:83:79:a9:b5:a0:2d:d4:a2:70:da:7a:18:63:1b:cc:90:e4:b9:a1:26:68:b0:e3:fe:b7:cd:6d:78:43:09:cc:d3:d0:05:ad:f8:b5:65:de:bb:d5:78:53:18:28:bb:92:fb:95:03:c6:98:52:b3:82:16:d8:e1:6a:48:26:a7:87:b5:80:f5:c0:10:f8:8c:74:90:0d:0a:14:76:0f:d4:5d:54:9a:c9:76:2c:ae:59:5f:0a:c2:07:e3:f2:b3:cd:52:36:27:f7:65:a0:ff:df:13:ed:2a:5b:2f:de:bb:2d:65:eb:4c:a4:44:ad:9f:f8:76:4b:b1:2c:32:8f:cd:62:06:2f:7f:ab:9b:70:30:59:db:4d:5e:27:87:5c:e7:d7:95:da:31:67:bc:0e:c2:3f:cc:0c:5d:f8:de:2f:1c:42:7b:1c:71:36:ea:0a:46:05:b4:62:c5:3c:40:8a:2c:77:c1:97:0c:f9:ad:48:83:ea:7b:28:cd:1f:df:26:74:19:d5:c2:bd:15:bf:a0:33:66:4f:2c:99:d3:57:5d:34:79:a1:f0:17:a7:77:e9:de:08:14:d5:03:9f:d2:c3:04:7f:15:7e:c5:2e:96:16:6f:a4:b5:6b:8c:62:02:4a:67:6d:d7:25:f9:81:a2:8a:5b:c0:f1:76:ea:16:38:c4:16:7a:bc:a7:ed:c1:41:b0:10:6b:1a:01:15:7f:d5:0c:f8:15:c2:ea:1b:3a:16:8b:23:61:b8:d1:2c:2c:d4:1b:30:d7:d4:fb:6a:d0:2b:9a:d0:c4:8c:8f:b8:93:9a:0a:29:09:5c:4a:3b:1c:55"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "427",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "2",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "0",
+          "quic.scil": "8",
+          "quic.scid": "88:0f:07:39:91:94:2b:03",
+          "quic.length": "410",
+          "quic.packet_number": "3",
+          "quic.payload": "71:4a:c7:49:8c:14:13:8b:15:1c:fe:ed:99:61:aa:77:25:92:97:0d:3e:6b:71:36:f6:7d:a6:9f:d9:48:e8:3c:e6:dd:b0:24:15:48:0a:fb:0c:e8:96:09:52:0c:95:42:1d:12:eb:b4:fb:75:45:0b:14:ca:ad:5c:25:3e:9e:89:31:b6:bc:3f:c1:4b:49:b6:b0:90:80:e1:12:38:e9:d8:43:b7:b2:4b:b6:7f:01:c8:9e:d0:f6:c6:9a:e8:22:ac:bf:86:ae:57:8d:80:69:ab:69:8a:0b:8f:90:69:d4:c6:a9:c6:4c:44:c9:16:b5:63:60:5b:61:d2:5c:ec:20:3e:60:06:70:48:c6:e2:d3:2a:78:df:c7:e8:4f:46:02:86:9c:e6:a3:00:13:ee:a0:94:a3:41:e6:dd:08:5a:3f:f2:37:b9:4b:fb:41:83:79:a9:b5:a0:2d:d4:a2:70:da:7a:18:63:1b:cc:90:e4:b9:a1:26:68:b0:e3:fe:b7:cd:6d:78:43:09:cc:d3:d0:05:ad:f8:b5:65:de:bb:d5:78:53:18:28:bb:92:fb:95:03:c6:98:52:b3:82:16:d8:e1:6a:48:26:a7:87:b5:80:f5:c0:10:f8:8c:74:90:0d:0a:14:76:0f:d4:5d:54:9a:c9:76:2c:ae:59:5f:0a:c2:07:e3:f2:b3:cd:52:36:27:f7:65:a0:ff:df:13:ed:2a:5b:2f:de:bb:2d:65:eb:4c:a4:44:ad:9f:f8:76:4b:b1:2c:32:8f:cd:62:06:2f:7f:ab:9b:70:30:59:db:4d:5e:27:87:5c:e7:d7:95:da:31:67:bc:0e:c2:3f:cc:0c:5d:f8:de:2f:1c:42:7b:1c:71:36:ea:0a:46:05:b4:62:c5:3c:40:8a:2c:77:c1:97:0c:f9:ad:48:83:ea:7b:28:cd:1f:df:26:74:19:d5:c2:bd:15:bf:a0:33:66:4f:2c:99:d3:57:5d:34:79:a1:f0:17:a7:77:e9:de:08:14:d5:03:9f:d2:c3:04:7f:15:7e:c5:2e:96:16:6f:a4:b5:6b:8c:62:02:4a:67:6d:d7:25:f9:81:a2:8a",
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "1077",
+            "quic.crypto.length": "388",
+            "quic.crypto.crypto_data": "",
+            "tls": {
+              "tls.handshake": "",
+              "tls.handshake.fragments": {
+                "tls.handshake.fragment": "20",
+                "tls.handshake.fragment": "21",
+                "tls.handshake.fragment.count": "2"
+              },
+              "tls.handshake": {
+                "tls.handshake.type": "11",
+                "tls.handshake.length": "961",
+                "tls.handshake.certificate_request_context_length": "0",
+                "tls.handshake.certificates_length": "957",
+                "tls.handshake.certificates": {
+                  "tls.handshake.certificate_length": "952",
+                  "tls.handshake.certificate": "30:82:03:b4:30:82:02:9c:a0:03:02:01:02:02:01:01:30:0d:06:09:2a:86:48:86:f7:0d:01:01:0b:05:00:30:1e:31:1c:30:1a:06:03:55:04:03:0c:13:51:55:49:43:20:53:65:72:76:65:72:20:52:6f:6f:74:20:43:41:30:1e:17:0d:32:33:30:35:30:32:31:33:32:38:32:33:5a:17:0d:32:33:30:38:31:30:31:33:32:38:32:33:5a:30:64:31:0b:30:09:06:03:55:04:06:13:02:55:53:31:13:30:11:06:03:55:04:08:0c:0a:43:61:6c:69:66:6f:72:6e:69:61:31:16:30:14:06:03:55:04:07:0c:0d:4d:6f:75:6e:74:61:69:6e:20:56:69:65:77:31:14:30:12:06:03:55:04:0a:0c:0b:51:55:49:43:20:53:65:72:76:65:72:31:12:30:10:06:03:55:04:03:0c:09:31:32:37:2e:30:2e:30:2e:31:30:82:01:22:30:0d:06:09:2a:86:48:86:f7:0d:01:01:01:05:00:03:82:01:0f:00:30:82:01:0a:02:82:01:01:00:c6:72:4e:14:c8:68:80:c5:51:bd:0c:43:9f:80:08:36:e5:47:04:ec:c5:b0:5f:56:32:42:8c:2b:ee:a7:a2:a6:dd:b7:84:25:c3:18:f4:a0:e4:e4:4b:c7:d4:e9:ea:8b:3a:75:d1:e6:8d:8e:a4:79:ce:47:0e:6a:d4:92:e4:03:f8:de:9e:ea:7d:6a:b8:31:bd:77:4f:6f:ad:8b:c5:54:4e:ed:76:2c:02:08:b0:34:34:d1:12:ae:5f:a0:f7:48:ab:9a:16:ce:7f:8b:25:6a:cd:a0:21:0b:68:10:c5:2f:e6:47:55:07:27:74:cf:88:a4:f6:28:7e:03:4a:c3:29:9e:e9:ff:c4:30:18:b7:2a:a5:ec:9a:87:dc:c6:23:00:91:06:b6:9e:79:28:9d:57:88:fb:6e:8f:2f:aa:c9:eb:0e:9e:d7:d8:1b:03:33:43:8e:9d:52:6d:10:d1:b9:91:35:7f:9a:34:b8:31:6f:a3:61:e1:21:07:fe:9e:10:7b:ae:0d:e5:34:52:26:6c:93:84:91:b6:26:c4:d6:60:29:d1:53:76:05:f2:c8:3b:94:0e:67:aa:65:8f:a2:f5:4f:f1:cc:2a:83:60:c9:e8:5f:1b:bb:a0:56:5e:cd:9b:98:5d:c1:8f:98:9d:ca:5f:ce:4a:93:95:7a:c7:a6:cb:43:02:03:01:00:01:a3:81:b6:30:81:b3:30:0c:06:03:55:1d:13:01:01:ff:04:02:30:00:30:1d:06:03:55:1d:0e:04:16:04:14:a2:37:78:85:8a:68:b2:ef:65:98:b8:e7:4c:8b:bb:b3:bd:f4:42:32:30:1f:06:03:55:1d:23:04:18:30:16:80:14:f1:4c:94:7e:14:c8:9f:98:cd:10:14:9a:17:77:7d:e2:50:52:89:4d:30:1d:06:03:55:1d:25:04:16:30:14:06:08:2b:06:01:05:05:07:03:01:06:08:2b:06:01:05:05:07:03:02:30:44:06:03:55:1d:11:04:3d:30:3b:82:0f:77:77:77:2e:65:78:61:6d:70:6c:65:2e:6f:72:67:82:10:6d:61:69:6c:2e:65:78:61:6d:70:6c:65:2e:6f:72:67:82:10:6d:61:69:6c:2e:65:78:61:6d:70:6c:65:2e:63:6f:6d:87:04:7f:00:00:01:30:0d:06:09:2a:86:48:86:f7:0d:01:01:0b:05:00:03:82:01:01:00:4e:fd:9b:b1:de:a5:e8:8a:90:9c:d5:2a:2d:ac:b1:ca:45:3d:fa:ba:31:fa:af:c7:e6:05:3c:5d:e6:e0:0a:13:88:f0:de:b4:4d:08:2e:f1:43:74:35:e2:d4:e9:f6:45:61:92:be:21:c1:2e:15:24:63:d3:64:3f:ee:f2:80:3b:c8:3b:55:4b:b6:ed:2a:54:6d:ad:dc:71:e5:9d:e6:72:36:e5:38:b6:db:1c:5b:bc:ab:b6:d0:2c:7c:0a:ce:9d:93:34:b4:59:92:84:8f:3d:e0:b4:27:68:de:d7:4e:d0:db:04:2b:40:5a:1a:16:9b:1e:38:3d:2b:86:de:c9:c3:7e:d9:73:6e:2e:54:6c:38:22:fc:4d:c1:15:94:f7:36:b2:12:11:9c:20:34:ab:e9:a0:53:11:76:a6:09:cf:e2:98:d4:26:11:c6:a2:62:e4:8f:66:7d:f0:2b:49:04:55:83:8d:31:7a:c7:46:20:1e:34:09:3c:08:5c:88:4d:3b:95:1c:f4:a3:12:49:2e:b3:f0:80:df:ba:6f:12:aa:c3:94:94:3e:10:5f:e8:3a:90:a3:9d:7f:45:48:f7:b7:9e:da:32:20:2b:63:f3:b4:3b:9d:1e:88:5f:08:a6:a3:c8:9a:c1:9f:dd:94:d4:e3:2f:55:16:4d:0f:53:38:e0:50",
+                  "tls.handshake.certificate_tree": {
+                    "x509af.signedCertificate_element": {
+                      "x509af.version": "2",
+                      "x509af.serialNumber": "01",
+                      "x509af.signature_element": {
+                        "x509af.algorithm.id": "1.2.840.113549.1.1.11"
+                      },
+                      "x509af.issuer": "0",
+                      "x509af.issuer_tree": {
+                        "x509if.rdnSequence": "1",
+                        "x509if.rdnSequence_tree": {
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.3",
+                              "x509sat.DirectoryString": "4",
+                              "x509sat.DirectoryString_tree": {
+                                "x509sat.uTF8String": "QUIC Server Root CA"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "x509af.validity_element": {
+                        "x509af.notBefore": "0",
+                        "x509af.notBefore_tree": {
+                          "x509af.utcTime": "2023-05-02 13:28:23 (UTC)"
+                        },
+                        "x509af.notAfter": "0",
+                        "x509af.notAfter_tree": {
+                          "x509af.utcTime": "2023-08-10 13:28:23 (UTC)"
+                        }
+                      },
+                      "x509af.subject": "0",
+                      "x509af.subject_tree": {
+                        "x509af.rdnSequence": "5",
+                        "x509af.rdnSequence_tree": {
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.6",
+                              "x509sat.CountryName": "US"
+                            }
+                          },
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.8",
+                              "x509sat.DirectoryString": "4",
+                              "x509sat.DirectoryString_tree": {
+                                "x509sat.uTF8String": "California"
+                              }
+                            }
+                          },
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.7",
+                              "x509sat.DirectoryString": "4",
+                              "x509sat.DirectoryString_tree": {
+                                "x509sat.uTF8String": "Mountain View"
+                              }
+                            }
+                          },
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.10",
+                              "x509sat.DirectoryString": "4",
+                              "x509sat.DirectoryString_tree": {
+                                "x509sat.uTF8String": "QUIC Server"
+                              }
+                            }
+                          },
+                          "x509if.RDNSequence_item": "1",
+                          "x509if.RDNSequence_item_tree": {
+                            "x509if.RelativeDistinguishedName_item_element": {
+                              "x509if.oid": "2.5.4.3",
+                              "x509sat.DirectoryString": "4",
+                              "x509sat.DirectoryString_tree": {
+                                "x509sat.uTF8String": "127.0.0.1"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "x509af.subjectPublicKeyInfo_element": {
+                        "x509af.algorithm_element": {
+                          "x509af.algorithm.id": "1.2.840.113549.1.1.1"
+                        },
+                        "x509af.subjectPublicKey": "30:82:01:0a:02:82:01:01:00:c6:72:4e:14:c8:68:80:c5:51:bd:0c:43:9f:80:08:36:e5:47:04:ec:c5:b0:5f:56:32:42:8c:2b:ee:a7:a2:a6:dd:b7:84:25:c3:18:f4:a0:e4:e4:4b:c7:d4:e9:ea:8b:3a:75:d1:e6:8d:8e:a4:79:ce:47:0e:6a:d4:92:e4:03:f8:de:9e:ea:7d:6a:b8:31:bd:77:4f:6f:ad:8b:c5:54:4e:ed:76:2c:02:08:b0:34:34:d1:12:ae:5f:a0:f7:48:ab:9a:16:ce:7f:8b:25:6a:cd:a0:21:0b:68:10:c5:2f:e6:47:55:07:27:74:cf:88:a4:f6:28:7e:03:4a:c3:29:9e:e9:ff:c4:30:18:b7:2a:a5:ec:9a:87:dc:c6:23:00:91:06:b6:9e:79:28:9d:57:88:fb:6e:8f:2f:aa:c9:eb:0e:9e:d7:d8:1b:03:33:43:8e:9d:52:6d:10:d1:b9:91:35:7f:9a:34:b8:31:6f:a3:61:e1:21:07:fe:9e:10:7b:ae:0d:e5:34:52:26:6c:93:84:91:b6:26:c4:d6:60:29:d1:53:76:05:f2:c8:3b:94:0e:67:aa:65:8f:a2:f5:4f:f1:cc:2a:83:60:c9:e8:5f:1b:bb:a0:56:5e:cd:9b:98:5d:c1:8f:98:9d:ca:5f:ce:4a:93:95:7a:c7:a6:cb:43:02:03:01:00:01",
+                        "x509af.subjectPublicKey_tree": {
+                          "pkcs1.modulus": "00:c6:72:4e:14:c8:68:80:c5:51:bd:0c:43:9f:80:08:36:e5:47:04:ec:c5:b0:5f:56:32:42:8c:2b:ee:a7:a2:a6:dd:b7:84:25:c3:18:f4:a0:e4:e4:4b:c7:d4:e9:ea:8b:3a:75:d1:e6:8d:8e:a4:79:ce:47:0e:6a:d4:92:e4:03:f8:de:9e:ea:7d:6a:b8:31:bd:77:4f:6f:ad:8b:c5:54:4e:ed:76:2c:02:08:b0:34:34:d1:12:ae:5f:a0:f7:48:ab:9a:16:ce:7f:8b:25:6a:cd:a0:21:0b:68:10:c5:2f:e6:47:55:07:27:74:cf:88:a4:f6:28:7e:03:4a:c3:29:9e:e9:ff:c4:30:18:b7:2a:a5:ec:9a:87:dc:c6:23:00:91:06:b6:9e:79:28:9d:57:88:fb:6e:8f:2f:aa:c9:eb:0e:9e:d7:d8:1b:03:33:43:8e:9d:52:6d:10:d1:b9:91:35:7f:9a:34:b8:31:6f:a3:61:e1:21:07:fe:9e:10:7b:ae:0d:e5:34:52:26:6c:93:84:91:b6:26:c4:d6:60:29:d1:53:76:05:f2:c8:3b:94:0e:67:aa:65:8f:a2:f5:4f:f1:cc:2a:83:60:c9:e8:5f:1b:bb:a0:56:5e:cd:9b:98:5d:c1:8f:98:9d:ca:5f:ce:4a:93:95:7a:c7:a6:cb:43",
+                          "pkcs1.publicExponent": "65537"
+                        }
+                      },
+                      "x509af.extensions": "5",
+                      "x509af.extensions_tree": {
+                        "x509af.Extension_element": {
+                          "x509af.extension.id": "2.5.29.19",
+                          "x509af.critical": "1",
+                          "x509ce.BasicConstraintsSyntax_element": ""
+                        },
+                        "x509af.Extension_element": {
+                          "x509af.extension.id": "2.5.29.14",
+                          "x509ce.SubjectKeyIdentifier": "a2:37:78:85:8a:68:b2:ef:65:98:b8:e7:4c:8b:bb:b3:bd:f4:42:32"
+                        },
+                        "x509af.Extension_element": {
+                          "x509af.extension.id": "2.5.29.35",
+                          "x509ce.AuthorityKeyIdentifier_element": {
+                            "x509ce.keyIdentifier": "f1:4c:94:7e:14:c8:9f:98:cd:10:14:9a:17:77:7d:e2:50:52:89:4d"
+                          }
+                        },
+                        "x509af.Extension_element": {
+                          "x509af.extension.id": "2.5.29.37",
+                          "x509ce.KeyPurposeIDs": "2",
+                          "x509ce.KeyPurposeIDs_tree": {
+                            "x509ce.KeyPurposeId": "1.3.6.1.5.5.7.3.1",
+                            "x509ce.KeyPurposeId": "1.3.6.1.5.5.7.3.2"
+                          }
+                        },
+                        "x509af.Extension_element": {
+                          "x509af.extension.id": "2.5.29.17",
+                          "x509ce.GeneralNames": "4",
+                          "x509ce.GeneralNames_tree": {
+                            "x509ce.GeneralName": "2",
+                            "x509ce.GeneralName_tree": {
+                              "x509ce.dNSName": "www.example.org"
+                            },
+                            "x509ce.GeneralName": "2",
+                            "x509ce.GeneralName_tree": {
+                              "x509ce.dNSName": "mail.example.org"
+                            },
+                            "x509ce.GeneralName": "2",
+                            "x509ce.GeneralName_tree": {
+                              "x509ce.dNSName": "mail.example.com"
+                            },
+                            "x509ce.GeneralName": "7",
+                            "x509ce.GeneralName_tree": {
+                              "x509ce.IPAddress.ipv4": "127.0.0.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "x509af.algorithmIdentifier_element": {
+                      "x509af.algorithm.id": "1.2.840.113549.1.1.11"
+                    },
+                    "ber.bitstring.padding": "0",
+                    "x509af.encrypted": "4e:fd:9b:b1:de:a5:e8:8a:90:9c:d5:2a:2d:ac:b1:ca:45:3d:fa:ba:31:fa:af:c7:e6:05:3c:5d:e6:e0:0a:13:88:f0:de:b4:4d:08:2e:f1:43:74:35:e2:d4:e9:f6:45:61:92:be:21:c1:2e:15:24:63:d3:64:3f:ee:f2:80:3b:c8:3b:55:4b:b6:ed:2a:54:6d:ad:dc:71:e5:9d:e6:72:36:e5:38:b6:db:1c:5b:bc:ab:b6:d0:2c:7c:0a:ce:9d:93:34:b4:59:92:84:8f:3d:e0:b4:27:68:de:d7:4e:d0:db:04:2b:40:5a:1a:16:9b:1e:38:3d:2b:86:de:c9:c3:7e:d9:73:6e:2e:54:6c:38:22:fc:4d:c1:15:94:f7:36:b2:12:11:9c:20:34:ab:e9:a0:53:11:76:a6:09:cf:e2:98:d4:26:11:c6:a2:62:e4:8f:66:7d:f0:2b:49:04:55:83:8d:31:7a:c7:46:20:1e:34:09:3c:08:5c:88:4d:3b:95:1c:f4:a3:12:49:2e:b3:f0:80:df:ba:6f:12:aa:c3:94:94:3e:10:5f:e8:3a:90:a3:9d:7f:45:48:f7:b7:9e:da:32:20:2b:63:f3:b4:3b:9d:1e:88:5f:08:a6:a3:c8:9a:c1:9f:dd:94:d4:e3:2f:55:16:4d:0f:53:38:e0:50"
+                  },
+                  "tls.handshake.extensions_length": "0"
+                }
+              },
+              "tls.handshake": {
+                "tls.handshake.type": "15",
+                "tls.handshake.length": "260",
+                "tls.handshake.sig_hash_alg": "0x0804",
+                "tls.handshake.sig_hash_alg_tree": {
+                  "tls.handshake.sig_hash_hash": "8",
+                  "tls.handshake.sig_hash_sig": "4"
+                },
+                "tls.handshake.client_cert_vrfy.sig_len": "256",
+                "tls.handshake.client_cert_vrfy.sig": "a4:54:3b:10:a6:49:b5:4e:df:70:f1:ae:18:25:4d:95:89:83:bc:38:9b:aa:66:c7:34:bc:e1:36:af:77:19:17:d1:af:a6:67:a6:95:a9:5d:51:87:c0:cc:4a:32:91:34:d6:f2:dc:96:f5:3c:1c:a4:74:19:9c:6d:60:09:80:14:73:cf:d7:ca:8e:16:09:1d:34:14:e9:b6:3c:07:04:b3:66:61:96:8e:3a:24:5d:e8:45:26:2a:52:8e:97:ba:6c:93:c6:46:75:20:b2:40:c9:4a:e1:33:b3:25:f7:d6:49:05:59:b8:dc:59:78:02:48:18:f3:94:e0:28:42:66:05:75:58:0d:5f:9e:f9:a4:47:ee:cf:be:ca:95:fe:2f:87:bd:88:4e:75:40:bb:d6:03:ff:f9:5b:9b:e9:80:2c:78:35:77:71:ed:15:9d:c0:56:2c:18:d6:c7:e6:fb:44:00:ad:0d:2f:a4:cd:62:8c:a9:86:38:34:79:aa:02:8d:b0:0a:a5:06:7c:95:ef:53:bf:ca:81:79:9a:4e:b1:51:95:ff:09:d8:dc:2d:62:15:e8:8f:32:0f:1f:13:a6:0e:14:31:c9:20:76:6b:9a:09:a0:06:b8:38:db:94:35:52:0c:c3:00:cd:0b:d1:50:1e:52:70:c5:51:57:e8:41:cd:ef"
+              },
+              "tls.handshake": {
+                "tls.handshake.type": "20",
+                "tls.handshake.length": "32",
+                "tls.handshake.verify_data": ""
+              }
+            }
+          }
+        },
+        "quic": {
+          "quic.packet_length": "63",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "4",
+            "quic.protected_payload": "f1:76:ea:16:38:c4:16:7a:bc:a7:ed:c1:41:b0:10:6b:1a:01:15:7f:d5:0c:f8:15:c2:ea:1b:3a:16:8b:23:61:b8:d1:2c:2c:d4:1b:30:d7:d4:fb:6a:d0:2b:9a:d0:c4:8c:8f:b8:93:9a:0a:29:09:5c:4a:3b:1c:55"
+          },
+          "quic.frame": {
+            "quic.frame_type": "8",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "0",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "3",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "1",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream_data": "00:04:1f:01:80:01:00:00:06:80:00:40:00:07:40:64:08:01:c0:00:00:11:d4:ff:0d:90:c0:00:00:00:4d:23:30:a5:c0:00:00:07:c8:8f:c5:59:00"
+          }
+        },
+        "http3": {
+          "http3.stream_type": "0",
+          "http3.frame_type": "4",
+          "http3.frame_length": "31",
+          "http3.frame_payload": "01:80:01:00:00:06:80:00:40:00:07:40:64:08:01:c0:00:00:11:d4:ff:0d:90:c0:00:00:00:4d:23:30:a5",
+          "http3.settings": {
+            "http3.settings.id": "1",
+            "http3.settings.value": "65536",
+            "http3.settings.qpack.max_table_capacity": "65536"
+          },
+          "http3.settings": {
+            "http3.settings.id": "6",
+            "http3.settings.value": "16384",
+            "http3.settings.max_field_section_size": "16384"
+          },
+          "http3.settings": {
+            "http3.settings.id": "7",
+            "http3.settings.value": "100",
+            "http3.settings.qpack.blocked_streams": "100"
+          },
+          "http3.settings": {
+            "http3.settings.id": "8",
+            "http3.settings.value": "1",
+            "http3.settings.extended_connect": "1"
+          },
+          "http3.settings": {
+            "http3.settings.id": "76587928976",
+            "http3.settings.value": "1294151845"
+          },
+          "http3.frame_type": "33429636441",
+          "http3.frame_length": "0"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.735323000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.735323000",
+          "frame.time_delta": "0.000464000",
+          "frame.time_delta_displayed": "0.000464000",
+          "frame.time_relative": "5.396823000",
+          "frame.number": "22",
+          "frame.len": "81",
+          "frame.cap_len": "81",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "67",
+          "ip.id": "0x904c",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac5b",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "47",
+          "udp.checksum": "0xfe42",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.007031000",
+            "udp.time_delta": "0.000464000"
+          },
+          "udp.payload": "ed:00:00:00:01:08:88:0f:07:39:91:94:2b:03:00:40:16:6c:61:59:fb:9c:45:c3:82:c8:46:eb:ef:62:f0:61:8c:cb:77:16:2f:10:5f"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "39",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "2",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "8",
+          "quic.dcid": "88:0f:07:39:91:94:2b:03",
+          "quic.scil": "0",
+          "quic.length": "22",
+          "quic.packet_number": "2",
+          "quic.payload": "61:59:fb:9c:45:c3:82:c8:46:eb:ef:62:f0:61:8c:cb:77:16:2f:10:5f",
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "3",
+            "quic.ack.ack_delay": "29",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "1"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.744406000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.744406000",
+          "frame.time_delta": "0.009083000",
+          "frame.time_delta_displayed": "0.009083000",
+          "frame.time_relative": "5.405906000",
+          "frame.number": "23",
+          "frame.len": "125",
+          "frame.cap_len": "125",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:tls",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "111",
+          "ip.id": "0x904d",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac2e",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "91",
+          "udp.checksum": "0xfe6e",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.016114000",
+            "udp.time_delta": "0.009083000"
+          },
+          "udp.payload": "e8:00:00:00:01:08:88:0f:07:39:91:94:2b:03:00:40:42:54:07:38:be:db:09:8b:cb:ac:d8:4b:b1:90:69:cf:47:b2:45:e8:90:0b:33:16:6e:69:88:77:a4:12:66:61:28:d7:7b:1d:8d:e5:86:85:d9:f8:6d:da:cc:ee:85:af:ed:ce:c5:0e:82:11:b3:97:8a:fe:b6:6f:25:c4:12:cb:06:6c:9f"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "83",
+          "quic.header_form": "1",
+          "quic.fixed_bit": "1",
+          "quic.long.packet_type": "2",
+          "quic.long.reserved": "0",
+          "quic.packet_number_length": "0",
+          "quic.version": "0x00000001",
+          "quic.dcil": "8",
+          "quic.dcid": "88:0f:07:39:91:94:2b:03",
+          "quic.scil": "0",
+          "quic.length": "66",
+          "quic.packet_number": "3",
+          "quic.payload": "07:38:be:db:09:8b:cb:ac:d8:4b:b1:90:69:cf:47:b2:45:e8:90:0b:33:16:6e:69:88:77:a4:12:66:61:28:d7:7b:1d:8d:e5:86:85:d9:f8:6d:da:cc:ee:85:af:ed:ce:c5:0e:82:11:b3:97:8a:fe:b6:6f:25:c4:12:cb:06:6c:9f",
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "0",
+            "quic.crypto.length": "46",
+            "quic.crypto.crypto_data": "",
+            "tls": {
+              "tls.handshake": {
+                "tls.handshake.type": "8",
+                "tls.handshake.length": "6",
+                "tls.handshake.extensions_length": "4",
+                "Extension: application_settings (len=0)": {
+                  "tls.handshake.extension.type": "17513",
+                  "tls.handshake.extension.len": "0"
+                }
+              },
+              "tls.handshake": {
+                "tls.handshake.type": "20",
+                "tls.handshake.length": "32",
+                "tls.handshake.verify_data": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.744599000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.744599000",
+          "frame.time_delta": "0.000193000",
+          "frame.time_delta_displayed": "0.000193000",
+          "frame.time_relative": "5.406099000",
+          "frame.number": "24",
+          "frame.len": "114",
+          "frame.cap_len": "114",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "100",
+          "ip.id": "0x904e",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac38",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "80",
+          "udp.checksum": "0xfe63",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.016307000",
+            "udp.time_delta": "0.000193000"
+          },
+          "udp.payload": "4b:88:0f:07:39:91:94:2b:03:dd:47:0a:79:ce:bb:44:7b:e0:ef:66:88:7f:ef:d7:61:d2:7f:7b:89:17:a8:8b:44:00:25:09:2f:29:78:61:0a:9a:68:da:81:ed:31:dc:da:f9:32:d8:af:67:dc:dd:4c:68:ba:70:de:89:4b:47:ef:b8:e1:fd:71:a9:57:43"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "72",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "4",
+            "quic.protected_payload": "47:0a:79:ce:bb:44:7b:e0:ef:66:88:7f:ef:d7:61:d2:7f:7b:89:17:a8:8b:44:00:25:09:2f:29:78:61:0a:9a:68:da:81:ed:31:dc:da:f9:32:d8:af:67:dc:dd:4c:68:ba:70:de:89:4b:47:ef:b8:e1:fd:71:a9:57:43"
+          },
+          "quic.frame": {
+            "quic.frame_type": "8",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "0",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "2",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream_data": "00:04:1d:01:80:01:00:00:06:80:04:00:00:07:40:64:c0:00:00:1c:55:64:6a:d2:c0:00:00:00:55:2b:d2:8b:c0:00:00:02:7c:49:03:86:03:6e:23:e4"
+          }
+        },
+        "http3": {
+          "http3.stream_type": "0",
+          "http3.frame_type": "4",
+          "http3.frame_length": "29",
+          "http3.frame_payload": "01:80:01:00:00:06:80:04:00:00:07:40:64:c0:00:00:1c:55:64:6a:d2:c0:00:00:00:55:2b:d2:8b",
+          "http3.settings": {
+            "http3.settings.id": "1",
+            "http3.settings.value": "65536",
+            "http3.settings.qpack.max_table_capacity": "65536"
+          },
+          "http3.settings": {
+            "http3.settings.id": "6",
+            "http3.settings.value": "262144",
+            "http3.settings.max_field_section_size": "262144"
+          },
+          "http3.settings": {
+            "http3.settings.id": "7",
+            "http3.settings.value": "100",
+            "http3.settings.qpack.blocked_streams": "100"
+          },
+          "http3.settings": {
+            "http3.settings.id": "121691728594",
+            "http3.settings.value": "1428935307"
+          },
+          "http3.frame_type": "10675094406",
+          "http3.frame_length": "3",
+          "http3.frame_payload": "6e:23:e4"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.745046000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.745046000",
+          "frame.time_delta": "0.000447000",
+          "frame.time_delta_displayed": "0.000447000",
+          "frame.time_relative": "5.406546000",
+          "frame.number": "25",
+          "frame.len": "390",
+          "frame.cap_len": "390",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:http3:http3:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "376",
+          "ip.id": "0x904f",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xab23",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "356",
+          "udp.checksum": "0xff77",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.016754000",
+            "udp.time_delta": "0.000447000"
+          },
+          "udp.payload": "4d:88:0f:07:39:91:94:2b:03:f3:06:07:47:c0:c5:0f:2e:e1:10:18:4b:b0:6f:e8:1e:5b:02:e7:d4:d1:d1:ec:88:13:b4:44:88:70:18:13:55:8d:8c:bc:b4:3e:88:a8:8b:74:35:95:53:5e:fb:de:b7:6e:15:4e:ba:6f:2d:a8:76:99:3a:6b:be:d2:d8:15:20:6c:77:d4:5a:a5:b0:87:3f:ac:72:cd:c3:94:c6:0f:f1:94:89:7b:da:49:d8:6a:c0:cd:cc:68:c6:b9:62:bd:e2:3e:ba:f5:1f:2f:1a:c9:ed:94:19:8a:bc:36:17:98:69:8f:13:c7:11:8b:b2:06:1a:4d:4b:46:62:c2:30:3f:99:8d:c5:ba:44:ba:23:30:47:fc:4e:2a:c2:18:e7:0c:9d:53:10:ac:9a:18:56:0c:2e:24:5e:f4:dd:fd:20:f3:05:bc:74:1c:ca:73:f4:01:1c:9d:c8:3f:02:54:1a:bc:37:35:81:e5:e4:d2:dd:c7:fe:9d:76:9f:cd:ef:7c:bc:ff:7f:04:d6:e5:1b:00:e9:5c:21:d6:6c:53:69:dc:f4:87:4e:62:30:06:de:7e:dc:a7:4d:75:74:f0:cf:51:15:32:fa:08:a1:66:fe:57:e2:6f:b8:b1:09:4e:71:95:cb:7b:36:2b:73:63:26:5e:8f:4a:60:7f:65:22:11:b6:1d:84:07:58:40:d2:c5:30:c6:da:3a:21:92:90:dd:cb:75:11:e9:4e:c0:50:bd:9b:98:75:45:dc:db:af:33:7b:65:ee:a9:41:70:ee:87:7d:96:4c:ff:71:48:d7:ef:3a:a2:d3:0d:c4:05:26:2c:74:09:4a:1e:6e:71:c5:71:35:1b:33:d9:b6:10:6c:76:43:0c:d2:c2:66:41:b1:4b:3a:7e:ef:ec:c3:a7"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "348",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "5",
+            "quic.protected_payload": "06:07:47:c0:c5:0f:2e:e1:10:18:4b:b0:6f:e8:1e:5b:02:e7:d4:d1:d1:ec:88:13:b4:44:88:70:18:13:55:8d:8c:bc:b4:3e:88:a8:8b:74:35:95:53:5e:fb:de:b7:6e:15:4e:ba:6f:2d:a8:76:99:3a:6b:be:d2:d8:15:20:6c:77:d4:5a:a5:b0:87:3f:ac:72:cd:c3:94:c6:0f:f1:94:89:7b:da:49:d8:6a:c0:cd:cc:68:c6:b9:62:bd:e2:3e:ba:f5:1f:2f:1a:c9:ed:94:19:8a:bc:36:17:98:69:8f:13:c7:11:8b:b2:06:1a:4d:4b:46:62:c2:30:3f:99:8d:c5:ba:44:ba:23:30:47:fc:4e:2a:c2:18:e7:0c:9d:53:10:ac:9a:18:56:0c:2e:24:5e:f4:dd:fd:20:f3:05:bc:74:1c:ca:73:f4:01:1c:9d:c8:3f:02:54:1a:bc:37:35:81:e5:e4:d2:dd:c7:fe:9d:76:9f:cd:ef:7c:bc:ff:7f:04:d6:e5:1b:00:e9:5c:21:d6:6c:53:69:dc:f4:87:4e:62:30:06:de:7e:dc:a7:4d:75:74:f0:cf:51:15:32:fa:08:a1:66:fe:57:e2:6f:b8:b1:09:4e:71:95:cb:7b:36:2b:73:63:26:5e:8f:4a:60:7f:65:22:11:b6:1d:84:07:58:40:d2:c5:30:c6:da:3a:21:92:90:dd:cb:75:11:e9:4e:c0:50:bd:9b:98:75:45:dc:db:af:33:7b:65:ee:a9:41:70:ee:87:7d:96:4c:ff:71:48:d7:ef:3a:a2:d3:0d:c4:05:26:2c:74:09:4a:1e:6e:71:c5:71:35:1b:33:d9:b6:10:6c:76:43:0c:d2:c2:66:41:b1:4b:3a:7e:ef:ec:c3:a7"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "4",
+            "quic.ack.ack_delay": "1236",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "0"
+          },
+          "quic.frame": {
+            "quic.frame_type": "14",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "1",
+              "quic.stream.off": "1"
+            },
+            "quic.stream.stream_id": "2",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream.offset": "44",
+            "quic.stream.length": "12",
+            "quic.stream_data": "80:0f:07:00:07:00:75:3d:30:2c:20:69"
+          },
+          "quic.frame": {
+            "quic.frame_type": "10",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "1",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "10",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream.length": "277",
+            "quic.stream_data": "02:3f:e1:ff:03:c0:8c:f1:e3:c2:e5:f2:3a:6b:a0:ab:9e:c9:bf:ff:20:d7:d0:7f:66:a2:81:b0:da:e0:53:fa:fc:08:7e:d4:ce:6a:ad:f2:a7:97:9c:89:c6:bf:b5:21:ae:ba:0b:c8:b1:e6:32:58:6d:97:57:65:c5:3f:ac:d8:f7:e8:cf:f4:a5:06:ea:55:31:14:9d:4f:fd:a9:8c:a3:92:82:a1:17:a7:b0:f4:95:80:84:4b:81:76:dc:0b:6b:85:c6:d4:dc:39:47:61:98:6d:97:57:65:cf:dd:e5:49:7c:a5:89:d3:4d:1f:43:ae:ba:0c:41:a4:c7:a9:8f:33:a6:9a:3f:df:9a:68:fa:1d:75:d0:62:0d:26:3d:4c:79:a6:8f:be:d0:01:77:fe:8d:48:e6:2b:03:ee:69:7e:8d:48:e6:2b:1e:0b:1d:7f:46:a4:73:15:81:d7:54:df:5f:2c:7c:fd:f6:80:0b:bd:f4:3a:eb:a0:c4:1a:4c:7a:98:41:a6:a8:b2:2c:5f:24:9c:75:4c:5f:be:f0:46:cf:df:68:00:bb:bf:6a:41:48:b4:a5:49:27:59:06:49:7f:83:a8:f5:17:6a:41:48:b4:a5:49:27:5a:93:c8:5f:86:a8:7d:cd:30:d2:5f:6a:41:48:b4:a5:49:27:5a:d4:16:cf:02:3f:31:6a:41:48:b4:a5:49:27:5a:42:a1:3f:86:90:e4:b6:92:d4:9f"
+          },
+          "quic.frame": {
+            "quic.frame_type": "9",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "1",
+              "quic.stream.len": "0",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "0",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "0"
+            },
+            "quic.stream_data": "01:0f:08:00:d1:86:d7:c1:ff:1f:85:84:83:82:81:80:df"
+          }
+        },
+        "http3": {
+          "http3.frame_type": "984832",
+          "http3.frame_length": "7",
+          "http3.frame_payload": "00:75:3d:30:2c:20:69",
+          "http3.priority_update_element_id": "0",
+          "http3.priority_update_field_value": "u=0, i"
+        },
+        "http3": {
+          "http3.stream_type": "2"
+        },
+        "http3": {
+          "http3.frame_type": "1",
+          "http3.frame_length": "15",
+          "http3.frame_payload": "08:00:d1:86:d7:c1:ff:1f:85:84:83:82:81:80:df"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.745302000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.745302000",
+          "frame.time_delta": "0.000256000",
+          "frame.time_delta_displayed": "0.000256000",
+          "frame.time_relative": "5.406802000",
+          "frame.number": "26",
+          "frame.len": "498",
+          "frame.cap_len": "498",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:tls",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "484",
+          "ip.id": "0xe0ce",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5a38",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "464",
+          "udp.checksum": "0xffe3",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.017010000",
+            "udp.time_delta": "0.000256000"
+          },
+          "udp.payload": "5d:2e:b6:40:56:c9:a0:1d:f5:25:f7:59:15:20:b4:82:f1:cc:53:a8:d1:fc:fc:8e:f4:fd:b5:e6:bb:e5:a8:fb:0f:37:eb:50:ab:23:09:1e:c5:0e:cf:6c:86:24:6b:9a:86:1d:e2:25:a4:fd:4d:21:a1:0d:29:54:cd:33:56:f8:2c:27:3d:bd:ba:72:bb:44:6d:98:ac:e5:5f:a7:f0:31:46:ca:82:a6:c3:df:82:b9:df:4b:5e:da:ba:c6:73:fa:dc:37:82:9f:9f:69:a3:cb:e0:fe:62:4b:81:c0:3b:8e:1b:59:37:ae:a2:9d:96:82:f7:66:5e:43:7d:ad:5c:43:5b:8e:c6:62:41:1c:38:db:e1:2c:c9:c0:64:cc:92:86:85:9d:d5:aa:eb:e0:b0:9b:10:eb:8e:a2:3c:fa:e7:db:3e:28:10:a4:f3:9c:86:f0:21:e6:ae:07:1d:a8:c8:ff:70:ef:94:ca:59:97:1b:03:43:d9:08:ca:33:51:d3:d5:84:ae:79:83:5e:50:e4:23:bf:93:94:31:df:bc:99:d2:d5:27:00:90:22:a1:14:4b:01:35:68:a0:06:a7:1b:4b:37:a2:ea:50:a8:10:f3:7f:21:79:d2:36:de:b8:53:37:9a:28:0e:41:a6:4d:ab:1b:6a:4f:49:b0:ce:70:28:35:69:d5:a0:04:d8:3b:c9:68:f5:16:c1:8b:ea:ba:37:ce:97:ce:e6:1e:64:d1:7a:9c:a0:e4:fc:5d:1f:0b:8a:38:94:79:b8:b2:39:5b:a8:82:1b:73:0f:6d:15:79:02:c9:8c:31:3c:9c:8f:88:e5:7e:cf:5a:8e:38:2c:d3:dc:56:55:c7:08:0d:21:05:7d:a5:7d:c8:de:3f:f8:45:39:92:d0:60:b5:ac:bf:e5:b9:8f:d7:41:43:ea:e4:fe:5f:78:f7:8d:15:92:b5:87:5a:2a:b8:66:f7:79:4d:b1:4d:d6:39:7f:6a:ae:8d:f9:a4:1c:10:70:58:ba:fd:2d:4c:71:94:2f:23:e4:4d:5b:2c:3a:b0:c2:14:55:74:4f:44:d6:d9:35:f1:7e:b1:c7:4a:3b:0a:77:17:de:24:d4:ce:bd:13:62:93:d3:5e:2f:d3:82:19:93:82:bb:45:73:3f:b7:e0:a9:ae:eb:d7:3b:d0:94:22:dc:b7:55:41:28:c8:b7:51:06:e2:26:4d:b8:ed:7e"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "456",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "5",
+            "quic.protected_payload": "b6:40:56:c9:a0:1d:f5:25:f7:59:15:20:b4:82:f1:cc:53:a8:d1:fc:fc:8e:f4:fd:b5:e6:bb:e5:a8:fb:0f:37:eb:50:ab:23:09:1e:c5:0e:cf:6c:86:24:6b:9a:86:1d:e2:25:a4:fd:4d:21:a1:0d:29:54:cd:33:56:f8:2c:27:3d:bd:ba:72:bb:44:6d:98:ac:e5:5f:a7:f0:31:46:ca:82:a6:c3:df:82:b9:df:4b:5e:da:ba:c6:73:fa:dc:37:82:9f:9f:69:a3:cb:e0:fe:62:4b:81:c0:3b:8e:1b:59:37:ae:a2:9d:96:82:f7:66:5e:43:7d:ad:5c:43:5b:8e:c6:62:41:1c:38:db:e1:2c:c9:c0:64:cc:92:86:85:9d:d5:aa:eb:e0:b0:9b:10:eb:8e:a2:3c:fa:e7:db:3e:28:10:a4:f3:9c:86:f0:21:e6:ae:07:1d:a8:c8:ff:70:ef:94:ca:59:97:1b:03:43:d9:08:ca:33:51:d3:d5:84:ae:79:83:5e:50:e4:23:bf:93:94:31:df:bc:99:d2:d5:27:00:90:22:a1:14:4b:01:35:68:a0:06:a7:1b:4b:37:a2:ea:50:a8:10:f3:7f:21:79:d2:36:de:b8:53:37:9a:28:0e:41:a6:4d:ab:1b:6a:4f:49:b0:ce:70:28:35:69:d5:a0:04:d8:3b:c9:68:f5:16:c1:8b:ea:ba:37:ce:97:ce:e6:1e:64:d1:7a:9c:a0:e4:fc:5d:1f:0b:8a:38:94:79:b8:b2:39:5b:a8:82:1b:73:0f:6d:15:79:02:c9:8c:31:3c:9c:8f:88:e5:7e:cf:5a:8e:38:2c:d3:dc:56:55:c7:08:0d:21:05:7d:a5:7d:c8:de:3f:f8:45:39:92:d0:60:b5:ac:bf:e5:b9:8f:d7:41:43:ea:e4:fe:5f:78:f7:8d:15:92:b5:87:5a:2a:b8:66:f7:79:4d:b1:4d:d6:39:7f:6a:ae:8d:f9:a4:1c:10:70:58:ba:fd:2d:4c:71:94:2f:23:e4:4d:5b:2c:3a:b0:c2:14:55:74:4f:44:d6:d9:35:f1:7e:b1:c7:4a:3b:0a:77:17:de:24:d4:ce:bd:13:62:93:d3:5e:2f:d3:82:19:93:82:bb:45:73:3f:b7:e0:a9:ae:eb:d7:3b:d0:94:22:dc:b7:55:41:28:c8:b7:51:06:e2:26:4d:b8:ed:7e"
+          },
+          "quic.frame": {
+            "quic.frame_type": "6",
+            "quic.crypto.offset": "0",
+            "quic.crypto.length": "434",
+            "quic.crypto.crypto_data": "",
+            "tls": {
+              "tls.handshake": {
+                "tls.handshake.type": "4",
+                "tls.handshake.length": "213",
+                "TLS Session Ticket": {
+                  "tls.handshake.session_ticket_lifetime_hint": "172800",
+                  "tls.handshake.session_ticket_age_add": "1334983434",
+                  "tls.handshake.session_ticket_nonce_length": "1",
+                  "tls.handshake.session_ticket_nonce": "00",
+                  "tls.handshake.session_ticket_length": "187",
+                  "tls.handshake.session_ticket": "16:1f:33:05:ae:61:3e:d5:5a:82:b0:c0:fc:7f:4a:29:c0:80:fb:1a:e4:6b:2f:12:1d:34:c7:bb:92:d4:03:ff:7e:89:81:ed:34:7e:f4:78:27:2e:71:5d:ac:53:84:ad:09:fd:c7:47:84:e1:35:c7:4e:3c:93:d6:db:b6:17:48:b5:c9:b5:20:b5:97:2b:ba:94:e0:7d:92:41:ab:e0:5d:8a:68:49:19:0a:c9:14:a6:6f:59:3a:06:4f:6a:84:9c:f2:b8:20:c9:4b:70:51:d0:d1:94:9e:1a:e5:8a:7d:59:35:11:2f:5d:3b:c2:7a:be:c3:a5:f0:4e:b2:01:2c:11:c3:47:e6:7d:6e:2d:f6:a2:78:f5:06:eb:c8:2c:50:65:e1:dd:c2:c2:a8:e2:fb:58:1e:17:97:b4:56:a7:b5:7b:95:74:38:ec:5e:64:ef:86:ce:7f:e5:22:af:a7:23:22:68:b7:71:be:56:30:5d:f3:cd:8b:5b",
+                  "tls.handshake.extensions_length": "12",
+                  "Extension: early_data (len=4)": {
+                    "tls.handshake.extension.type": "42",
+                    "tls.handshake.extension.len": "4",
+                    "tls.early_data.max_early_data_size": "4294967295"
+                  },
+                  "Extension: Reserved (GREASE) (len=0)": {
+                    "tls.handshake.extension.type": "19018",
+                    "tls.handshake.extension.len": "0",
+                    "tls.handshake.extension.data": ""
+                  }
+                }
+              },
+              "tls.handshake": {
+                "tls.handshake.type": "4",
+                "tls.handshake.length": "213",
+                "TLS Session Ticket": {
+                  "tls.handshake.session_ticket_lifetime_hint": "172800",
+                  "tls.handshake.session_ticket_age_add": "3053267619",
+                  "tls.handshake.session_ticket_nonce_length": "1",
+                  "tls.handshake.session_ticket_nonce": "01",
+                  "tls.handshake.session_ticket_length": "187",
+                  "tls.handshake.session_ticket": "16:8b:8d:73:75:b9:70:d4:c0:5c:03:02:ed:71:f3:8b:14:f3:55:c1:a5:4a:0c:5a:be:b1:e3:1c:11:55:22:65:86:15:9a:70:3c:1d:7b:b7:60:27:0d:e2:79:53:98:16:75:93:18:d5:ce:7f:af:0f:f9:95:82:85:dc:34:e5:18:42:3a:70:5e:24:9a:64:70:63:b3:07:d8:06:f6:ec:b0:d9:f0:59:9b:40:5b:29:f1:b3:5a:b2:e7:14:b7:39:01:74:a0:3c:45:98:b1:e0:1d:c0:a3:de:8a:49:bc:c7:64:8a:96:10:26:66:b4:c1:68:a9:69:25:f1:78:1c:28:e3:55:5d:5f:42:4b:e9:1e:e5:bc:06:dc:1b:86:ad:56:10:4f:f3:b2:c5:32:f6:cc:02:4a:48:ab:be:d9:20:6e:b4:85:fd:49:06:bb:8f:86:7f:4c:55:4b:82:fb:61:98:bd:14:29:60:bd:ec:1f:2c:06:81:6b:ea",
+                  "tls.handshake.extensions_length": "12",
+                  "Extension: early_data (len=4)": {
+                    "tls.handshake.extension.type": "42",
+                    "tls.handshake.extension.len": "4",
+                    "tls.early_data.max_early_data_size": "4294967295"
+                  },
+                  "Extension: Reserved (GREASE) (len=0)": {
+                    "tls.handshake.extension.type": "19018",
+                    "tls.handshake.extension.len": "0",
+                    "tls.handshake.extension.data": ""
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.745359000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.745359000",
+          "frame.time_delta": "0.000057000",
+          "frame.time_delta_displayed": "0.000057000",
+          "frame.time_relative": "5.406859000",
+          "frame.number": "27",
+          "frame.len": "157",
+          "frame.cap_len": "157",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "143",
+          "ip.id": "0xe0cf",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5b8c",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "123",
+          "udp.checksum": "0xfe8e",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.017067000",
+            "udp.time_delta": "0.000057000"
+          },
+          "udp.payload": "5d:91:d1:5b:c7:5c:2c:b6:31:c0:e2:02:2d:bd:85:07:b7:62:c3:e2:d8:8c:4c:66:7d:03:f3:b4:b4:4a:bf:4f:e4:6c:e2:6d:4d:96:32:00:58:70:8b:2c:a9:21:ea:ab:75:6b:af:24:da:c7:40:84:bb:b1:30:47:5a:dc:bf:b3:1d:e2:89:c8:8e:0b:ac:35:39:3d:c5:3e:fb:0a:fd:1a:43:b6:98:9f:bd:99:df:14:d0:44:ad:83:5b:db:dc:1b:48:95:ed:cb:2a:99:17:68:96:c5:3d:37:88:1c:30:5d:17:c1:8d"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "115",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "6",
+            "quic.protected_payload": "d1:5b:c7:5c:2c:b6:31:c0:e2:02:2d:bd:85:07:b7:62:c3:e2:d8:8c:4c:66:7d:03:f3:b4:b4:4a:bf:4f:e4:6c:e2:6d:4d:96:32:00:58:70:8b:2c:a9:21:ea:ab:75:6b:af:24:da:c7:40:84:bb:b1:30:47:5a:dc:bf:b3:1d:e2:89:c8:8e:0b:ac:35:39:3d:c5:3e:fb:0a:fd:1a:43:b6:98:9f:bd:99:df:14:d0:44:ad:83:5b:db:dc:1b:48:95:ed:cb:2a:99:17:68:96:c5:3d:37:88:1c:30:5d:17:c1:8d"
+          },
+          "quic.frame": {
+            "quic.frame_type": "30"
+          },
+          "quic.frame": {
+            "quic.frame_type": "7",
+            "quic.nt.length": "65",
+            "quic.nt.token": "00:7d:0b:3d:66:60:b8:df:27:34:dd:71:b4:e3:7b:6f:e8:88:54:e1:cf:fa:7e:83:57:0e:ee:e9:49:e0:d0:0a:63:39:70:b7:46:c5:fd:a8:6d:01:bc:2a:f9:3a:6a:45:6a:3b:07:90:da:be:6b:5f:d4:25:6f:f6:21:8b:ec:e4:eb"
+          },
+          "quic.frame": {
+            "quic.frame_type": "24",
+            "quic.nci.sequence": "1",
+            "quic.nci.retire_prior_to": "0",
+            "quic.nci.connection_id.length": "8",
+            "quic.nci.connection_id": "1f:fd:f8:9c:78:45:38:f9",
+            "quic.nci.stateless_reset_token": "51:90:c0:44:c5:6a:1c:e7:74:99:65:f5:ef:b0:ba:93"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.745423000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.745423000",
+          "frame.time_delta": "0.000064000",
+          "frame.time_delta_displayed": "0.000064000",
+          "frame.time_relative": "5.406923000",
+          "frame.number": "28",
+          "frame.len": "73",
+          "frame.cap_len": "73",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "59",
+          "ip.id": "0x9050",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac5f",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "39",
+          "udp.checksum": "0xfe3a",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.017131000",
+            "udp.time_delta": "0.000064000"
+          },
+          "udp.payload": "4a:88:0f:07:39:91:94:2b:03:4a:99:c4:4a:8e:69:d2:f8:51:8e:89:e9:83:ed:c4:10:a3:5d:a2:55:f9:69"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "31",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "6",
+            "quic.protected_payload": "99:c4:4a:8e:69:d2:f8:51:8e:89:e9:83:ed:c4:10:a3:5d:a2:55:f9:69"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "6",
+            "quic.ack.ack_delay": "3",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "2"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.747416000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.747416000",
+          "frame.time_delta": "0.001993000",
+          "frame.time_delta_displayed": "0.001993000",
+          "frame.time_relative": "5.408916000",
+          "frame.number": "29",
+          "frame.len": "1288",
+          "frame.cap_len": "1288",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:http3:http3:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "1274",
+          "ip.id": "0xe0d0",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5720",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "1254",
+          "udp.checksum": "0x02fa",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.019124000",
+            "udp.time_delta": "0.001993000"
+          },
+          "udp.payload": "4f:a4:9c:2f:69:9f:48:b9:b7:d9:21:12:56:b1:39:3d:8e:a6:56:81:8c:67:cc:81:67:9f:f7:60:5b:77:2b:4e:7b:58:a4:b5:a5:65:c7:71:b8:64:88:cb:a4:01:ae:99:b4:a8:49:16:84:4d:f4:b9:af:91:e1:17:ef:09:dc:0e:31:16:96:e9:79:66:71:51:e5:55:45:cb:d3:c6:38:c3:9d:f5:fe:e3:77:06:aa:02:a5:92:a5:51:14:34:18:5e:74:32:4f:2e:e5:19:ab:94:05:50:8d:8a:67:a8:22:2d:cb:30:50:06:19:ab:cf:47:4f:c0:cd:3b:e7:b2:d6:e0:a2:93:d2:cd:33:73:db:e3:7f:be:4d:51:bb:fa:d3:5c:6b:91:d4:16:df:8e:24:c7:e1:08:1e:e4:6c:e6:da:cd:28:9b:cb:b9:fe:5d:be:ef:de:b3:bc:91:c4:12:9f:59:be:32:cc:26:e5:7c:c0:32:44:43:4f:55:d4:a3:9f:a8:b0:7a:e9:30:c7:91:69:3c:c2:47:41:c7:a4:5a:4e:13:e1:51:11:b5:43:5b:78:2b:37:8f:95:19:a7:84:3b:f9:2b:70:34:21:51:ce:64:5d:e9:cb:4b:88:ca:67:b5:61:43:ad:1d:19:34:f2:a9:a0:f8:3a:1b:79:5c:4c:29:59:9f:d4:8f:21:e5:ae:c9:f0:08:37:c7:ea:61:88:2b:92:39:3c:dd:69:eb:65:51:40:7d:52:26:1a:0c:10:5c:69:75:7f:f0:d9:c0:92:37:de:57:a7:dd:30:ee:c7:aa:cd:56:5c:54:60:0a:e0:b4:6e:92:23:91:49:93:2d:9b:db:02:94:c3:8c:18:63:0b:28:e5:d4:d9:0b:74:0e:12:5a:75:16:d8:93:02:4e:9f:d4:14:4d:02:b9:83:27:61:86:69:5d:02:72:01:cf:38:e0:ea:37:d4:54:d5:ca:f6:00:ce:27:c5:db:42:58:0b:67:43:1f:b5:e8:52:c9:ca:84:11:26:1f:fb:a6:2f:c3:9c:4d:1c:bd:ab:52:c7:7a:8e:85:b0:26:75:22:92:30:ce:60:f8:77:a9:0c:b8:05:53:ad:dd:eb:6b:03:5b:30:48:07:ea:f1:af:d0:20:c1:ce:53:49:ee:74:87:fc:89:6a:7c:f7:93:4b:17:51:46:cd:d8:ae:46:00:56:ef:50:c5:86:d5:8a:4a:d1:03:43:ef:b6:d1:43:11:c5:62:db:2e:6f:6c:9c:b3:6d:63:ac:1c:27:af:11:02:12:27:8d:d6:fb:13:3e:81:10:97:dc:ea:20:b1:19:fe:bd:6a:6a:d0:04:8e:f4:b7:be:60:f1:d6:22:5f:ab:c0:71:ee:93:3c:01:d8:41:3f:97:f8:21:59:51:be:13:e6:82:07:7f:73:3b:f2:71:94:20:77:53:0a:bf:aa:b0:45:bc:2d:a4:52:b4:02:cf:d4:a4:ca:60:82:95:c7:10:e6:dc:9d:5f:7f:ca:2c:b0:33:b7:7c:5e:e8:59:4c:3c:ff:2d:6d:91:98:2d:63:b5:7b:d5:4d:d2:42:df:a8:ab:c3:4c:8f:1d:7a:15:4e:04:41:f7:0a:f2:b9:a3:f8:6f:24:69:88:d9:ea:23:ea:67:c4:c4:40:c2:02:3c:0c:8b:5d:b8:c0:03:f0:69:47:e2:6e:10:76:11:a7:62:3e:77:fe:9f:0d:fd:8c:68:fd:1f:88:6c:11:26:fb:0c:d4:59:37:71:14:bc:42:1c:51:20:7e:bd:3c:d7:ce:d9:6e:3a:f0:40:9a:09:03:d3:94:5b:ab:8d:1d:4c:51:dd:8f:fa:3e:2f:b9:41:39:67:57:71:39:cd:f7:f8:a1:2e:c2:05:37:2f:75:f2:bd:c9:58:f2:e3:1f:42:8b:0c:33:c0:36:cf:20:cd:2c:78:17:10:79:ad:8f:ad:ec:ee:9d:96:d4:99:b7:da:a2:72:d8:b5:5d:2f:31:66:0c:83:aa:81:bf:9c:38:e2:5a:fb:f8:8f:ea:03:b3:d4:d6:a4:23:9c:1a:58:e8:d3:a8:2f:b0:9d:3e:11:15:85:57:33:97:5b:20:b2:fa:92:63:6d:51:04:9e:1b:7a:79:c9:77:31:48:fb:f3:f1:b3:01:cd:cd:96:29:36:a2:24:df:88:70:52:d9:14:f2:04:93:5d:22:ab:f7:0e:17:e8:5d:ee:b6:ba:4a:31:97:32:0e:4b:80:8d:30:1f:f6:a8:66:06:fe:95:8c:32:20:38:52:5f:47:04:b1:72:be:b3:3d:24:bb:12:b9:b2:02:46:8e:47:9d:d3:2d:b1:65:d6:df:a9:04:35:5b:5b:70:a9:8a:43:1c:44:ac:19:a3:0c:c1:05:61:cc:bd:59:45:4c:8b:ee:fa:68:75:a7:9a:f2:23:75:5b:95:54:b2:64:ed:71:1b:53:f5:c4:69:f3:89:fc:a7:60:94:24:82:76:f6:27:3d:22:e4:bf:cf:e1:5b:7a:8a:cb:ca:43:98:2e:e3:a7:90:51:47:9c:6f:fc:ba:ff:89:01:ab:3b:c6:0f:ed:16:40:fb:c4:ca:0e:22:6c:ca:ca:3c:be:1b:19:42:84:7c:89:10:00:4c:35:d4:88:32:38:17:b6:d0:a4:7f:24:a9:37:4c:58:fa:d8:77:f9:ca:06:66:b1:eb:1f:cd:ba:0d:6e:46:5d:2b:09:b7:ee:0b:d2:a5:c0:4e:a3:6a:9a:71:3d:fa:c2:7f:93:45:82:d0:e8:73:9e:b1:91:47:5d:36:46:d3:77:36:ef:82:48:5f:b6:10:fc:4f:03:9f:f4:fc:3b:8e:a1:8a:3f:3c:e1:4b:dc:5f:e8:c0:c6:a2:f5:33:54:ee:a7:ab:39:75:91:91:b1:7d:4e:20:7d:15:7d:4d:29:3c:5e:2b:52:77:67:bf:f0:d2:58:8a:17:dd:d1:60:f6:42:8d:e1:d1:c0:2c:e5:e9:1d:77:44:85:15:bf:77:c2:bc:04:33:b4:e0:51:b3:c2:ac:bc:aa:7a:83:2a:a5:e8:c2:a5:c1:30:55:3e:f4:1a:b7:30:e5:f7:aa:c2:81:10:bc:84:64:09:5f:8a:7d:7d:8d:d6:4f:78:0f:59:e0:2a:9f:3c:f6:3c:14:8f:b2:2c:ad:2d:95:04:d2:fa:7e:9a:70:a7:97:69:28:33:4e:91:29:cf:be:88:03:a5:39:4b:9e:2c:7f:96:e5:97:a5:0b:a6:da:db:17:de:7f:6e:0a:d9:ed:c6:62:e2:3d:f8:b6:1f:92:e3:fd:82:34:c4:75:58:5d:f2:ea:5b:6c"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "1246",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "7",
+            "quic.protected_payload": "9c:2f:69:9f:48:b9:b7:d9:21:12:56:b1:39:3d:8e:a6:56:81:8c:67:cc:81:67:9f:f7:60:5b:77:2b:4e:7b:58:a4:b5:a5:65:c7:71:b8:64:88:cb:a4:01:ae:99:b4:a8:49:16:84:4d:f4:b9:af:91:e1:17:ef:09:dc:0e:31:16:96:e9:79:66:71:51:e5:55:45:cb:d3:c6:38:c3:9d:f5:fe:e3:77:06:aa:02:a5:92:a5:51:14:34:18:5e:74:32:4f:2e:e5:19:ab:94:05:50:8d:8a:67:a8:22:2d:cb:30:50:06:19:ab:cf:47:4f:c0:cd:3b:e7:b2:d6:e0:a2:93:d2:cd:33:73:db:e3:7f:be:4d:51:bb:fa:d3:5c:6b:91:d4:16:df:8e:24:c7:e1:08:1e:e4:6c:e6:da:cd:28:9b:cb:b9:fe:5d:be:ef:de:b3:bc:91:c4:12:9f:59:be:32:cc:26:e5:7c:c0:32:44:43:4f:55:d4:a3:9f:a8:b0:7a:e9:30:c7:91:69:3c:c2:47:41:c7:a4:5a:4e:13:e1:51:11:b5:43:5b:78:2b:37:8f:95:19:a7:84:3b:f9:2b:70:34:21:51:ce:64:5d:e9:cb:4b:88:ca:67:b5:61:43:ad:1d:19:34:f2:a9:a0:f8:3a:1b:79:5c:4c:29:59:9f:d4:8f:21:e5:ae:c9:f0:08:37:c7:ea:61:88:2b:92:39:3c:dd:69:eb:65:51:40:7d:52:26:1a:0c:10:5c:69:75:7f:f0:d9:c0:92:37:de:57:a7:dd:30:ee:c7:aa:cd:56:5c:54:60:0a:e0:b4:6e:92:23:91:49:93:2d:9b:db:02:94:c3:8c:18:63:0b:28:e5:d4:d9:0b:74:0e:12:5a:75:16:d8:93:02:4e:9f:d4:14:4d:02:b9:83:27:61:86:69:5d:02:72:01:cf:38:e0:ea:37:d4:54:d5:ca:f6:00:ce:27:c5:db:42:58:0b:67:43:1f:b5:e8:52:c9:ca:84:11:26:1f:fb:a6:2f:c3:9c:4d:1c:bd:ab:52:c7:7a:8e:85:b0:26:75:22:92:30:ce:60:f8:77:a9:0c:b8:05:53:ad:dd:eb:6b:03:5b:30:48:07:ea:f1:af:d0:20:c1:ce:53:49:ee:74:87:fc:89:6a:7c:f7:93:4b:17:51:46:cd:d8:ae:46:00:56:ef:50:c5:86:d5:8a:4a:d1:03:43:ef:b6:d1:43:11:c5:62:db:2e:6f:6c:9c:b3:6d:63:ac:1c:27:af:11:02:12:27:8d:d6:fb:13:3e:81:10:97:dc:ea:20:b1:19:fe:bd:6a:6a:d0:04:8e:f4:b7:be:60:f1:d6:22:5f:ab:c0:71:ee:93:3c:01:d8:41:3f:97:f8:21:59:51:be:13:e6:82:07:7f:73:3b:f2:71:94:20:77:53:0a:bf:aa:b0:45:bc:2d:a4:52:b4:02:cf:d4:a4:ca:60:82:95:c7:10:e6:dc:9d:5f:7f:ca:2c:b0:33:b7:7c:5e:e8:59:4c:3c:ff:2d:6d:91:98:2d:63:b5:7b:d5:4d:d2:42:df:a8:ab:c3:4c:8f:1d:7a:15:4e:04:41:f7:0a:f2:b9:a3:f8:6f:24:69:88:d9:ea:23:ea:67:c4:c4:40:c2:02:3c:0c:8b:5d:b8:c0:03:f0:69:47:e2:6e:10:76:11:a7:62:3e:77:fe:9f:0d:fd:8c:68:fd:1f:88:6c:11:26:fb:0c:d4:59:37:71:14:bc:42:1c:51:20:7e:bd:3c:d7:ce:d9:6e:3a:f0:40:9a:09:03:d3:94:5b:ab:8d:1d:4c:51:dd:8f:fa:3e:2f:b9:41:39:67:57:71:39:cd:f7:f8:a1:2e:c2:05:37:2f:75:f2:bd:c9:58:f2:e3:1f:42:8b:0c:33:c0:36:cf:20:cd:2c:78:17:10:79:ad:8f:ad:ec:ee:9d:96:d4:99:b7:da:a2:72:d8:b5:5d:2f:31:66:0c:83:aa:81:bf:9c:38:e2:5a:fb:f8:8f:ea:03:b3:d4:d6:a4:23:9c:1a:58:e8:d3:a8:2f:b0:9d:3e:11:15:85:57:33:97:5b:20:b2:fa:92:63:6d:51:04:9e:1b:7a:79:c9:77:31:48:fb:f3:f1:b3:01:cd:cd:96:29:36:a2:24:df:88:70:52:d9:14:f2:04:93:5d:22:ab:f7:0e:17:e8:5d:ee:b6:ba:4a:31:97:32:0e:4b:80:8d:30:1f:f6:a8:66:06:fe:95:8c:32:20:38:52:5f:47:04:b1:72:be:b3:3d:24:bb:12:b9:b2:02:46:8e:47:9d:d3:2d:b1:65:d6:df:a9:04:35:5b:5b:70:a9:8a:43:1c:44:ac:19:a3:0c:c1:05:61:cc:bd:59:45:4c:8b:ee:fa:68:75:a7:9a:f2:23:75:5b:95:54:b2:64:ed:71:1b:53:f5:c4:69:f3:89:fc:a7:60:94:24:82:76:f6:27:3d:22:e4:bf:cf:e1:5b:7a:8a:cb:ca:43:98:2e:e3:a7:90:51:47:9c:6f:fc:ba:ff:89:01:ab:3b:c6:0f:ed:16:40:fb:c4:ca:0e:22:6c:ca:ca:3c:be:1b:19:42:84:7c:89:10:00:4c:35:d4:88:32:38:17:b6:d0:a4:7f:24:a9:37:4c:58:fa:d8:77:f9:ca:06:66:b1:eb:1f:cd:ba:0d:6e:46:5d:2b:09:b7:ee:0b:d2:a5:c0:4e:a3:6a:9a:71:3d:fa:c2:7f:93:45:82:d0:e8:73:9e:b1:91:47:5d:36:46:d3:77:36:ef:82:48:5f:b6:10:fc:4f:03:9f:f4:fc:3b:8e:a1:8a:3f:3c:e1:4b:dc:5f:e8:c0:c6:a2:f5:33:54:ee:a7:ab:39:75:91:91:b1:7d:4e:20:7d:15:7d:4d:29:3c:5e:2b:52:77:67:bf:f0:d2:58:8a:17:dd:d1:60:f6:42:8d:e1:d1:c0:2c:e5:e9:1d:77:44:85:15:bf:77:c2:bc:04:33:b4:e0:51:b3:c2:ac:bc:aa:7a:83:2a:a5:e8:c2:a5:c1:30:55:3e:f4:1a:b7:30:e5:f7:aa:c2:81:10:bc:84:64:09:5f:8a:7d:7d:8d:d6:4f:78:0f:59:e0:2a:9f:3c:f6:3c:14:8f:b2:2c:ad:2d:95:04:d2:fa:7e:9a:70:a7:97:69:28:33:4e:91:29:cf:be:88:03:a5:39:4b:9e:2c:7f:96:e5:97:a5:0b:a6:da:db:17:de:7f:6e:0a:d9:ed:c6:62:e2:3d:f8:b6:1f:92:e3:fd:82:34:c4:75:58:5d:f2:ea:5b:6c"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "5",
+            "quic.ack.ack_delay": "86",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "1"
+          },
+          "quic.frame": {
+            "quic.frame_type": "10",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "1",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "7",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "1",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream.length": "2",
+            "quic.stream_data": "03:80"
+          },
+          "quic.frame": {
+            "quic.frame_type": "10",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "1",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "11",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "1",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream.length": "203",
+            "quic.stream_data": "02:3f:e1:ff:03:c2:84:68:42:00:9f:ec:92:49:7c:a5:89:d3:4d:1f:6a:12:71:d8:82:a6:0e:1b:f0:ac:f7:c6:96:e4:59:3e:94:13:8a:43:5d:8a:08:02:65:40:3f:70:22:b8:cb:ca:62:d1:bf:c7:93:fe:59:0b:4e:b6:27:1f:69:df:f7:37:b3:57:fe:cd:21:6a:4f:f3:65:2f:9a:cd:61:51:96:e4:59:3e:94:03:2a:68:1f:a5:04:01:32:a0:1f:b8:11:5c:65:e5:31:68:df:ca:96:df:3d:bf:4a:05:d5:35:11:2a:08:01:7d:40:3b:70:2f:5c:13:8a:62:d1:bf:ff:1d:8c:c1:7b:72:9f:d1:27:8d:80:09:e7:3f:bf:fb:8b:84:84:2d:69:5b:05:44:3c:86:aa:6f:65:f2:b1:06:49:cb:03:48:49:54:c4:83:08:9b:73:6b:f2:b1:ec:34:c6:a8:74:2d:6d:94:7f:92:9d:29:ad:17:18:63:c7:8f:0b:97:c8:e9:ae:82:ae:7b:26:63"
+          },
+          "quic.frame": {
+            "quic.frame_type": "8",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "0",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "0",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "0"
+            },
+            "quic.stream_data": "01:0f:0c:00:d9:8a:e6:89:88:87:86:85:84:83:82:81:80:00:44:e8:3c:21:64:6f:63:74:79:70:65:20:68:74:6d:6c:3e:0a:3c:68:74:6d:6c:3e:0a:3c:68:65:61:64:3e:0a:20:20:20:20:3c:74:69:74:6c:65:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:74:69:74:6c:65:3e:0a:0a:20:20:20:20:3c:6d:65:74:61:20:63:68:61:72:73:65:74:3d:22:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:68:74:74:70:2d:65:71:75:69:76:3d:22:43:6f:6e:74:65:6e:74:2d:74:79:70:65:22:20:63:6f:6e:74:65:6e:74:3d:22:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:6e:61:6d:65:3d:22:76:69:65:77:70:6f:72:74:22:20:63:6f:6e:74:65:6e:74:3d:22:77:69:64:74:68:3d:64:65:76:69:63:65:2d:77:69:64:74:68:2c:20:69:6e:69:74:69:61:6c:2d:73:63:61:6c:65:3d:31:22:20:2f:3e:0a:20:20:20:20:3c:73:74:79:6c:65:20:74:79:70:65:3d:22:74:65:78:74:2f:63:73:73:22:3e:0a:20:20:20:20:62:6f:64:79:20:7b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:30:66:30:66:32:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:66:6f:6e:74:2d:66:61:6d:69:6c:79:3a:20:2d:61:70:70:6c:65:2d:73:79:73:74:65:6d:2c:20:73:79:73:74:65:6d:2d:75:69:2c:20:42:6c:69:6e:6b:4d:61:63:53:79:73:74:65:6d:46:6f:6e:74:2c:20:22:53:65:67:6f:65:20:55:49:22:2c:20:22:4f:70:65:6e:20:53:61:6e:73:22:2c:20:22:48:65:6c:76:65:74:69:63:61:20:4e:65:75:65:22:2c:20:48:65:6c:76:65:74:69:63:61:2c:20:41:72:69:61:6c:2c:20:73:61:6e:73:2d:73:65:72:69:66:3b:0a:20:20:20:20:20:20:20:20:0a:20:20:20:20:7d:0a:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:36:30:30:70:78:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:35:65:6d:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:32:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:64:66:64:66:66:3b:0a:20:20:20:20:20:20:20:20:62:6f:72:64:65:72:2d:72:61:64:69:75:73:3a:20:30:2e:35:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:6f:78:2d:73:68:61:64:6f:77:3a:20:32:70:78:20:33:70:78:20:37:70:78:20:32:70:78:20:72:67:62:61:28:30:2c:30:2c:30:2c:30:2e:30:32:29:3b:0a:20:20:20:20:7d:0a:20:20:20:20:61:3a:6c:69:6e:6b:2c:20:61:3a:76:69:73:69:74:65:64:20:7b:0a:20:20:20:20:20:20:20:20:63:6f:6c:6f:72:3a:20:23:33:38:34:38:38:66:3b:0a:20:20:20:20:20:20:20:20:74:65:78:74:2d:64:65:63:6f:72:61:74:69:6f:6e:3a:20:6e:6f:6e:65:3b:0a:20:20:20:20:7d:0a:20:20:20:20:40:6d:65:64:69:61:20:28:6d:61:78:2d:77:69:64:74:68:3a:20:37:30:30:70:78:29:20:7b:0a:20:20:20:20:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:7d:0a:20:20:20:20:7d:0a:20:20:20:20:3c:2f:73:74:79:6c:65:3e:20:20:20:20:0a:3c:2f:68:65:61:64:3e:0a:0a:3c:62:6f:64:79:3e:0a:3c:64:69:76:3e:0a:20:20:20:20:3c:68:31:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:68:31:3e:0a:20:20:20:20:3c"
+          }
+        },
+        "http3": {
+          "http3.stream_type": "3"
+        },
+        "http3": {
+          "http3.stream_type": "2"
+        },
+        "http3": {
+          "http3.frame_type": "1",
+          "http3.frame_length": "15",
+          "http3.frame_payload": "0c:00:d9:8a:e6:89:88:87:86:85:84:83:82:81:80"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.747625000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.747625000",
+          "frame.time_delta": "0.000209000",
+          "frame.time_delta_displayed": "0.000209000",
+          "frame.time_relative": "5.409125000",
+          "frame.number": "30",
+          "frame.len": "332",
+          "frame.cap_len": "332",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "318",
+          "ip.id": "0xe0d1",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5adb",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "298",
+          "udp.checksum": "0xff3d",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.019333000",
+            "udp.time_delta": "0.000209000"
+          },
+          "udp.payload": "45:82:74:67:1b:19:cd:31:70:19:51:61:74:e6:75:4c:5d:7d:08:03:e7:d4:b8:d4:e0:2f:c7:a7:7b:05:05:67:77:0f:ce:db:ee:2f:79:9d:99:5a:8d:e4:ae:92:c7:09:67:39:5c:6d:fb:c7:47:ce:4d:aa:ee:22:bb:87:29:a3:a8:6a:0e:25:f4:73:a1:2d:e7:00:01:66:4b:fb:a6:58:b3:f1:72:0d:74:52:7b:6f:39:89:ee:3b:5d:a6:f9:32:ca:4a:32:1e:70:96:60:db:c0:27:62:38:92:de:7b:f2:31:24:2b:50:b5:f5:5c:6b:17:16:06:de:0e:56:a4:04:4b:4d:e4:9e:42:e3:79:e3:df:8e:44:0a:51:aa:d4:fe:d4:10:1c:71:a7:c1:54:81:a5:7e:fe:ca:7d:e3:ed:44:d5:f9:c1:3c:bf:ba:6d:ce:ec:4c:ca:29:fa:a8:0e:3a:df:0f:bc:e4:a0:14:9f:7a:3e:1f:e6:3d:cf:a8:b1:47:76:ae:fb:eb:8a:78:2e:ad:03:25:c1:1d:5e:56:c5:d1:91:bc:87:0d:0c:b3:60:01:86:30:65:eb:f3:ef:c5:29:c1:c4:98:4c:1d:f1:0b:37:07:9f:25:4f:40:08:ae:90:ff:4c:7f:7d:49:57:f0:65:65:e6:a4:8d:21:eb:29:cb:d7:22:e2:a4:83:61:22:33:84:e7:ae:eb:72:9e:78:bc:dd:01:0b:23:3a:68:92:a4:5c:2e:a3:bc:d0:ec:e7:ef:04:86"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "290",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "8",
+            "quic.protected_payload": "74:67:1b:19:cd:31:70:19:51:61:74:e6:75:4c:5d:7d:08:03:e7:d4:b8:d4:e0:2f:c7:a7:7b:05:05:67:77:0f:ce:db:ee:2f:79:9d:99:5a:8d:e4:ae:92:c7:09:67:39:5c:6d:fb:c7:47:ce:4d:aa:ee:22:bb:87:29:a3:a8:6a:0e:25:f4:73:a1:2d:e7:00:01:66:4b:fb:a6:58:b3:f1:72:0d:74:52:7b:6f:39:89:ee:3b:5d:a6:f9:32:ca:4a:32:1e:70:96:60:db:c0:27:62:38:92:de:7b:f2:31:24:2b:50:b5:f5:5c:6b:17:16:06:de:0e:56:a4:04:4b:4d:e4:9e:42:e3:79:e3:df:8e:44:0a:51:aa:d4:fe:d4:10:1c:71:a7:c1:54:81:a5:7e:fe:ca:7d:e3:ed:44:d5:f9:c1:3c:bf:ba:6d:ce:ec:4c:ca:29:fa:a8:0e:3a:df:0f:bc:e4:a0:14:9f:7a:3e:1f:e6:3d:cf:a8:b1:47:76:ae:fb:eb:8a:78:2e:ad:03:25:c1:1d:5e:56:c5:d1:91:bc:87:0d:0c:b3:60:01:86:30:65:eb:f3:ef:c5:29:c1:c4:98:4c:1d:f1:0b:37:07:9f:25:4f:40:08:ae:90:ff:4c:7f:7d:49:57:f0:65:65:e6:a4:8d:21:eb:29:cb:d7:22:e2:a4:83:61:22:33:84:e7:ae:eb:72:9e:78:bc:dd:01:0b:23:3a:68:92:a4:5c:2e:a3:bc:d0:ec:e7:ef:04:86"
+          },
+          "quic.frame": {
+            "quic.frame_type": "13",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "1",
+              "quic.stream.len": "0",
+              "quic.stream.off": "1"
+            },
+            "quic.stream.stream_id": "0",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "0"
+            },
+            "quic.stream.offset": "1008",
+            "quic.stream_data": "70:3e:54:68:69:73:20:64:6f:6d:61:69:6e:20:69:73:20:66:6f:72:20:75:73:65:20:69:6e:20:69:6c:6c:75:73:74:72:61:74:69:76:65:20:65:78:61:6d:70:6c:65:73:20:69:6e:20:64:6f:63:75:6d:65:6e:74:73:2e:20:59:6f:75:20:6d:61:79:20:75:73:65:20:74:68:69:73:0a:20:20:20:20:64:6f:6d:61:69:6e:20:69:6e:20:6c:69:74:65:72:61:74:75:72:65:20:77:69:74:68:6f:75:74:20:70:72:69:6f:72:20:63:6f:6f:72:64:69:6e:61:74:69:6f:6e:20:6f:72:20:61:73:6b:69:6e:67:20:66:6f:72:20:70:65:72:6d:69:73:73:69:6f:6e:2e:3c:2f:70:3e:0a:20:20:20:20:3c:70:3e:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:77:77:77:2e:69:61:6e:61:2e:6f:72:67:2f:64:6f:6d:61:69:6e:73:2f:65:78:61:6d:70:6c:65:22:3e:4d:6f:72:65:20:69:6e:66:6f:72:6d:61:74:69:6f:6e:2e:2e:2e:3c:2f:61:3e:3c:2f:70:3e:0a:3c:2f:64:69:76:3e:0a:3c:2f:62:6f:64:79:3e:0a:3c:2f:68:74:6d:6c:3e:0a",
+            "quic.fragments": {
+              "quic.fragment": "29",
+              "quic.fragment": "30",
+              "quic.fragment.count": "2",
+              "quic.reassembled.length": "1259",
+              "quic.reassembled.data": "00:44:e8:3c:21:64:6f:63:74:79:70:65:20:68:74:6d:6c:3e:0a:3c:68:74:6d:6c:3e:0a:3c:68:65:61:64:3e:0a:20:20:20:20:3c:74:69:74:6c:65:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:74:69:74:6c:65:3e:0a:0a:20:20:20:20:3c:6d:65:74:61:20:63:68:61:72:73:65:74:3d:22:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:68:74:74:70:2d:65:71:75:69:76:3d:22:43:6f:6e:74:65:6e:74:2d:74:79:70:65:22:20:63:6f:6e:74:65:6e:74:3d:22:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:6e:61:6d:65:3d:22:76:69:65:77:70:6f:72:74:22:20:63:6f:6e:74:65:6e:74:3d:22:77:69:64:74:68:3d:64:65:76:69:63:65:2d:77:69:64:74:68:2c:20:69:6e:69:74:69:61:6c:2d:73:63:61:6c:65:3d:31:22:20:2f:3e:0a:20:20:20:20:3c:73:74:79:6c:65:20:74:79:70:65:3d:22:74:65:78:74:2f:63:73:73:22:3e:0a:20:20:20:20:62:6f:64:79:20:7b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:30:66:30:66:32:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:66:6f:6e:74:2d:66:61:6d:69:6c:79:3a:20:2d:61:70:70:6c:65:2d:73:79:73:74:65:6d:2c:20:73:79:73:74:65:6d:2d:75:69:2c:20:42:6c:69:6e:6b:4d:61:63:53:79:73:74:65:6d:46:6f:6e:74:2c:20:22:53:65:67:6f:65:20:55:49:22:2c:20:22:4f:70:65:6e:20:53:61:6e:73:22:2c:20:22:48:65:6c:76:65:74:69:63:61:20:4e:65:75:65:22:2c:20:48:65:6c:76:65:74:69:63:61:2c:20:41:72:69:61:6c:2c:20:73:61:6e:73:2d:73:65:72:69:66:3b:0a:20:20:20:20:20:20:20:20:0a:20:20:20:20:7d:0a:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:36:30:30:70:78:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:35:65:6d:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:32:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:64:66:64:66:66:3b:0a:20:20:20:20:20:20:20:20:62:6f:72:64:65:72:2d:72:61:64:69:75:73:3a:20:30:2e:35:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:6f:78:2d:73:68:61:64:6f:77:3a:20:32:70:78:20:33:70:78:20:37:70:78:20:32:70:78:20:72:67:62:61:28:30:2c:30:2c:30:2c:30:2e:30:32:29:3b:0a:20:20:20:20:7d:0a:20:20:20:20:61:3a:6c:69:6e:6b:2c:20:61:3a:76:69:73:69:74:65:64:20:7b:0a:20:20:20:20:20:20:20:20:63:6f:6c:6f:72:3a:20:23:33:38:34:38:38:66:3b:0a:20:20:20:20:20:20:20:20:74:65:78:74:2d:64:65:63:6f:72:61:74:69:6f:6e:3a:20:6e:6f:6e:65:3b:0a:20:20:20:20:7d:0a:20:20:20:20:40:6d:65:64:69:61:20:28:6d:61:78:2d:77:69:64:74:68:3a:20:37:30:30:70:78:29:20:7b:0a:20:20:20:20:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:7d:0a:20:20:20:20:7d:0a:20:20:20:20:3c:2f:73:74:79:6c:65:3e:20:20:20:20:0a:3c:2f:68:65:61:64:3e:0a:0a:3c:62:6f:64:79:3e:0a:3c:64:69:76:3e:0a:20:20:20:20:3c:68:31:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:68:31:3e:0a:20:20:20:20:3c:70:3e:54:68:69:73:20:64:6f:6d:61:69:6e:20:69:73:20:66:6f:72:20:75:73:65:20:69:6e:20:69:6c:6c:75:73:74:72:61:74:69:76:65:20:65:78:61:6d:70:6c:65:73:20:69:6e:20:64:6f:63:75:6d:65:6e:74:73:2e:20:59:6f:75:20:6d:61:79:20:75:73:65:20:74:68:69:73:0a:20:20:20:20:64:6f:6d:61:69:6e:20:69:6e:20:6c:69:74:65:72:61:74:75:72:65:20:77:69:74:68:6f:75:74:20:70:72:69:6f:72:20:63:6f:6f:72:64:69:6e:61:74:69:6f:6e:20:6f:72:20:61:73:6b:69:6e:67:20:66:6f:72:20:70:65:72:6d:69:73:73:69:6f:6e:2e:3c:2f:70:3e:0a:20:20:20:20:3c:70:3e:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:77:77:77:2e:69:61:6e:61:2e:6f:72:67:2f:64:6f:6d:61:69:6e:73:2f:65:78:61:6d:70:6c:65:22:3e:4d:6f:72:65:20:69:6e:66:6f:72:6d:61:74:69:6f:6e:2e:2e:2e:3c:2f:61:3e:3c:2f:70:3e:0a:3c:2f:64:69:76:3e:0a:3c:2f:62:6f:64:79:3e:0a:3c:2f:68:74:6d:6c:3e:0a"
+            }
+          }
+        },
+        "http3": {
+          "http3.frame_type": "0",
+          "http3.frame_length": "1256",
+          "http3.frame_payload": "3c:21:64:6f:63:74:79:70:65:20:68:74:6d:6c:3e:0a:3c:68:74:6d:6c:3e:0a:3c:68:65:61:64:3e:0a:20:20:20:20:3c:74:69:74:6c:65:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:74:69:74:6c:65:3e:0a:0a:20:20:20:20:3c:6d:65:74:61:20:63:68:61:72:73:65:74:3d:22:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:68:74:74:70:2d:65:71:75:69:76:3d:22:43:6f:6e:74:65:6e:74:2d:74:79:70:65:22:20:63:6f:6e:74:65:6e:74:3d:22:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:75:74:66:2d:38:22:20:2f:3e:0a:20:20:20:20:3c:6d:65:74:61:20:6e:61:6d:65:3d:22:76:69:65:77:70:6f:72:74:22:20:63:6f:6e:74:65:6e:74:3d:22:77:69:64:74:68:3d:64:65:76:69:63:65:2d:77:69:64:74:68:2c:20:69:6e:69:74:69:61:6c:2d:73:63:61:6c:65:3d:31:22:20:2f:3e:0a:20:20:20:20:3c:73:74:79:6c:65:20:74:79:70:65:3d:22:74:65:78:74:2f:63:73:73:22:3e:0a:20:20:20:20:62:6f:64:79:20:7b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:30:66:30:66:32:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:30:3b:0a:20:20:20:20:20:20:20:20:66:6f:6e:74:2d:66:61:6d:69:6c:79:3a:20:2d:61:70:70:6c:65:2d:73:79:73:74:65:6d:2c:20:73:79:73:74:65:6d:2d:75:69:2c:20:42:6c:69:6e:6b:4d:61:63:53:79:73:74:65:6d:46:6f:6e:74:2c:20:22:53:65:67:6f:65:20:55:49:22:2c:20:22:4f:70:65:6e:20:53:61:6e:73:22:2c:20:22:48:65:6c:76:65:74:69:63:61:20:4e:65:75:65:22:2c:20:48:65:6c:76:65:74:69:63:61:2c:20:41:72:69:61:6c:2c:20:73:61:6e:73:2d:73:65:72:69:66:3b:0a:20:20:20:20:20:20:20:20:0a:20:20:20:20:7d:0a:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:36:30:30:70:78:3b:0a:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:35:65:6d:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:70:61:64:64:69:6e:67:3a:20:32:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:61:63:6b:67:72:6f:75:6e:64:2d:63:6f:6c:6f:72:3a:20:23:66:64:66:64:66:66:3b:0a:20:20:20:20:20:20:20:20:62:6f:72:64:65:72:2d:72:61:64:69:75:73:3a:20:30:2e:35:65:6d:3b:0a:20:20:20:20:20:20:20:20:62:6f:78:2d:73:68:61:64:6f:77:3a:20:32:70:78:20:33:70:78:20:37:70:78:20:32:70:78:20:72:67:62:61:28:30:2c:30:2c:30:2c:30:2e:30:32:29:3b:0a:20:20:20:20:7d:0a:20:20:20:20:61:3a:6c:69:6e:6b:2c:20:61:3a:76:69:73:69:74:65:64:20:7b:0a:20:20:20:20:20:20:20:20:63:6f:6c:6f:72:3a:20:23:33:38:34:38:38:66:3b:0a:20:20:20:20:20:20:20:20:74:65:78:74:2d:64:65:63:6f:72:61:74:69:6f:6e:3a:20:6e:6f:6e:65:3b:0a:20:20:20:20:7d:0a:20:20:20:20:40:6d:65:64:69:61:20:28:6d:61:78:2d:77:69:64:74:68:3a:20:37:30:30:70:78:29:20:7b:0a:20:20:20:20:20:20:20:20:64:69:76:20:7b:0a:20:20:20:20:20:20:20:20:20:20:20:20:6d:61:72:67:69:6e:3a:20:30:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:20:20:20:20:77:69:64:74:68:3a:20:61:75:74:6f:3b:0a:20:20:20:20:20:20:20:20:7d:0a:20:20:20:20:7d:0a:20:20:20:20:3c:2f:73:74:79:6c:65:3e:20:20:20:20:0a:3c:2f:68:65:61:64:3e:0a:0a:3c:62:6f:64:79:3e:0a:3c:64:69:76:3e:0a:20:20:20:20:3c:68:31:3e:45:78:61:6d:70:6c:65:20:44:6f:6d:61:69:6e:3c:2f:68:31:3e:0a:20:20:20:20:3c:70:3e:54:68:69:73:20:64:6f:6d:61:69:6e:20:69:73:20:66:6f:72:20:75:73:65:20:69:6e:20:69:6c:6c:75:73:74:72:61:74:69:76:65:20:65:78:61:6d:70:6c:65:73:20:69:6e:20:64:6f:63:75:6d:65:6e:74:73:2e:20:59:6f:75:20:6d:61:79:20:75:73:65:20:74:68:69:73:0a:20:20:20:20:64:6f:6d:61:69:6e:20:69:6e:20:6c:69:74:65:72:61:74:75:72:65:20:77:69:74:68:6f:75:74:20:70:72:69:6f:72:20:63:6f:6f:72:64:69:6e:61:74:69:6f:6e:20:6f:72:20:61:73:6b:69:6e:67:20:66:6f:72:20:70:65:72:6d:69:73:73:69:6f:6e:2e:3c:2f:70:3e:0a:20:20:20:20:3c:70:3e:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:77:77:77:2e:69:61:6e:61:2e:6f:72:67:2f:64:6f:6d:61:69:6e:73:2f:65:78:61:6d:70:6c:65:22:3e:4d:6f:72:65:20:69:6e:66:6f:72:6d:61:74:69:6f:6e:2e:2e:2e:3c:2f:61:3e:3c:2f:70:3e:0a:3c:2f:64:69:76:3e:0a:3c:2f:62:6f:64:79:3e:0a:3c:2f:68:74:6d:6c:3e:0a"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.747690000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.747690000",
+          "frame.time_delta": "0.000065000",
+          "frame.time_delta_displayed": "0.000065000",
+          "frame.time_relative": "5.409190000",
+          "frame.number": "31",
+          "frame.len": "77",
+          "frame.cap_len": "77",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic:http3",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "63",
+          "ip.id": "0x9051",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac5a",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "43",
+          "udp.checksum": "0xfe3e",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.019398000",
+            "udp.time_delta": "0.000065000"
+          },
+          "udp.payload": "48:88:0f:07:39:91:94:2b:03:ad:f6:9d:96:bc:7c:e1:7b:28:d7:13:37:65:ce:3d:c2:e9:63:42:f9:eb:43:6c:08:24:73"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "35",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "7",
+            "quic.protected_payload": "f6:9d:96:bc:7c:e1:7b:28:d7:13:37:65:ce:3d:c2:e9:63:42:f9:eb:43:6c:08:24:73"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "7",
+            "quic.ack.ack_delay": "15",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "3"
+          },
+          "quic.frame": {
+            "quic.frame_type": "8",
+            "quic.frame_type_tree": {
+              "quic.stream.fin": "0",
+              "quic.stream.len": "0",
+              "quic.stream.off": "0"
+            },
+            "quic.stream.stream_id": "6",
+            "quic.stream.stream_id_tree": {
+              "quic.stream.initiator": "0",
+              "quic.stream.direction": "1"
+            },
+            "quic.stream_data": "03:80"
+          }
+        },
+        "http3": {
+          "http3.stream_type": "3"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.772785000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.772785000",
+          "frame.time_delta": "0.025095000",
+          "frame.time_delta_displayed": "0.025095000",
+          "frame.time_relative": "5.434285000",
+          "frame.number": "32",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.id": "0x9052",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac5c",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "40",
+          "udp.checksum": "0xfe3b",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.044493000",
+            "udp.time_delta": "0.025095000"
+          },
+          "udp.payload": "5e:88:0f:07:39:91:94:2b:03:96:f8:13:f4:84:f1:b2:64:cc:95:63:dc:8e:f0:68:f2:0d:55:25:bb:df:4f:4e"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "32",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "8",
+            "quic.protected_payload": "f8:13:f4:84:f1:b2:64:cc:95:63:dc:8e:f0:68:f2:0d:55:25:bb:df:4f:4e"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "8",
+            "quic.ack.ack_delay": "3127",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "4"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.773475000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.773475000",
+          "frame.time_delta": "0.000690000",
+          "frame.time_delta_displayed": "0.000690000",
+          "frame.time_relative": "5.434975000",
+          "frame.number": "33",
+          "frame.len": "90",
+          "frame.cap_len": "90",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "76",
+          "ip.id": "0x9053",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0xac4b",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "36916",
+          "udp.dstport": "6121",
+          "udp.port": "36916",
+          "udp.port": "6121",
+          "udp.length": "56",
+          "udp.checksum": "0xfe4b",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.045183000",
+            "udp.time_delta": "0.000690000"
+          },
+          "udp.payload": "54:88:0f:07:39:91:94:2b:03:53:8c:f9:86:57:66:92:3b:d0:57:a7:aa:67:70:3e:42:2c:b0:79:56:66:15:2e:67:dd:7b:bf:0d:e0:8a:14:8d:84:f4:2b:45:ea:99:40"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "48",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.dcid": "88:0f:07:39:91:94:2b:03",
+            "quic.packet_number": "9",
+            "quic.protected_payload": "8c:f9:86:57:66:92:3b:d0:57:a7:aa:67:70:3e:42:2c:b0:79:56:66:15:2e:67:dd:7b:bf:0d:e0:8a:14:8d:84:f4:2b:45:ea:99:40"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "8",
+            "quic.ack.ack_delay": "3216",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "4"
+          },
+          "quic.frame": {
+            "quic.frame_type": "28",
+            "quic.cc.error_code": "0",
+            "quic.cc.frame_type": "0",
+            "quic.cc.reason_phrase.length": "12",
+            "quic.cc.reason_phrase": "70:net error"
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-05-02",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "May  2, 2023 11:13:11.773479000 EDT",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1683040391.773479000",
+          "frame.time_delta": "0.000004000",
+          "frame.time_delta_displayed": "0.000004000",
+          "frame.time_relative": "5.434979000",
+          "frame.number": "34",
+          "frame.len": "65",
+          "frame.cap_len": "65",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:quic",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "00:00:00:00:00:00",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "00:00:00_00:00:00",
+            "eth.dst.oui": "0",
+            "eth.dst.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.dst.lg": "0",
+            "eth.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "00:00:00:00:00:00",
+          "eth.src_tree": {
+            "eth.src_resolved": "00:00:00_00:00:00",
+            "eth.src.oui": "0",
+            "eth.src.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.addr": "00:00:00:00:00:00",
+            "eth.addr_resolved": "00:00:00_00:00:00",
+            "eth.addr.oui": "0",
+            "eth.addr.oui_resolved": "Officially Xerox, but 0:0:0:0:0:0 is more common",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "51",
+          "ip.id": "0xe0d4",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "17",
+          "ip.checksum": "0x5be3",
+          "ip.checksum.status": "2",
+          "ip.src": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.src_host": "127.0.0.1",
+          "ip.host": "127.0.0.1",
+          "ip.dst": "127.0.0.1",
+          "ip.addr": "127.0.0.1",
+          "ip.dst_host": "127.0.0.1",
+          "ip.host": "127.0.0.1"
+        },
+        "udp": {
+          "udp.srcport": "6121",
+          "udp.dstport": "36916",
+          "udp.port": "6121",
+          "udp.port": "36916",
+          "udp.length": "31",
+          "udp.checksum": "0xfe32",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.045187000",
+            "udp.time_delta": "0.000004000"
+          },
+          "udp.payload": "4c:10:44:10:11:8f:24:9c:6b:b0:30:5e:e4:ce:88:e7:bb:3b:15:54:8e:7c:fe"
+        },
+        "quic": {
+          "QUIC Connection information": {
+            "quic.connection.number": "0"
+          },
+          "quic.packet_length": "23",
+          "quic.short": {
+            "quic.header_form": "0",
+            "quic.fixed_bit": "1",
+            "quic.spin_bit": "0",
+            "quic.short.reserved": "0",
+            "quic.key_phase": "0",
+            "quic.packet_number_length": "0",
+            "quic.packet_number": "9",
+            "quic.protected_payload": "44:10:11:8f:24:9c:6b:b0:30:5e:e4:ce:88:e7:bb:3b:15:54:8e:7c:fe"
+          },
+          "quic.frame": {
+            "quic.frame_type": "2",
+            "quic.ack.largest_acknowledged": "8",
+            "quic.ack.ack_delay": "60",
+            "quic.ack.ack_range_count": "0",
+            "quic.ack.first_ack_range": "3"
+          }
+        }
+      }
+    }
+  }
+]
