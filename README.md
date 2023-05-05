@@ -104,7 +104,6 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 echo "export SSLKEYLOGFILE='$HOME/sslkeyfile.log'" >> ~/.bashrc
 source ~/.bashrc
 ```
-
 ```
 #Chrome as Client
 google-chrome --headless --dump-dom --incognito --no-proxy-server --enable-quic \
@@ -112,4 +111,47 @@ google-chrome --headless --dump-dom --incognito --no-proxy-server --enable-quic 
 --host-resolver-rules='MAP www.example.org:443 127.0.0.1:6121' https://www.example.org
 ```
 This will print index.html.
+
+### Tracing QUIC packets
+QUIC packets show as UDP packets to the OS. To trace QUIC packets
+```
+sudo tcpdump -i lo -s 65535 -w dump.pcap
+```
+This will store packets exchanged on ```lo``` interface in ```dump.pcap```. Run server and chrome client with this running the background.
+
+### Decrypting QUIC packets
+We will decrypt QUIC packets using ```wireshark```. You will need the following files ```dump.pcap``` and ```sslkeyfile.log```.
+
+Note: Install Wireshark 3.6.7 which includes QUIC support. Older installations might not have QUIC support.
+
+Opening dump.pcap on wireshark-gui will not show much information on the packet since it is all encrypted. To Decrypt:
+```
+1. Open preferences
+2. Select Protocols. Search for TLS
+3. Add path to sslkeyfile.log to (Pre)-Master-Secret log filename
+```
+Saving these settings should update packet view. Now we can see the decrypted load. 
+
+#### Save Decrypted
+Wireshark doesnt allow saving decrypted packets in pcap format. So we use json format for this:
+```
+Filter packets by "quic" keyword. This gives only quic packets.
+Goto Files/Export Packet Dissections
+as json and save to a file dissected_pkts.json
+``` 
+
+### Calculate RTT
+Given `dissected_pkts.json` 
+
+run
+```
+./json_rtt_parser.py dissected_pkts.json
+```
+This is will print out a list of tuples which has the following keys:
+1. fpkt_num : Forward packet number
+2. fpkt_tstamp: Timestamp for this packet
+3. ack_tstamp: Timestamp for the ack for this packet (Note, not all packets will have an ack due to ack aggregation and/or packet loss)
+4. ack_delay: delay listed in the ack frame
+5. calculated_ack: ack_tstamp - fpkt_tstamp
+
 
