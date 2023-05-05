@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import json
-
+import sys
 
 #forward pkt is client(src) to server(dst)
 
@@ -88,6 +88,7 @@ def calculate_rtt(fpkt_tstamp, ack_tstamp):
     at = float(ack_tstamp)
     return (at - ft)
 
+
 def map_ack_frame_to_forward(all_fpkts, ack_frame, timestamp):
     for ack in ack_frame:
         largest_ack = ack['largest_acked'];
@@ -101,8 +102,18 @@ def map_ack_frame_to_forward(all_fpkts, ack_frame, timestamp):
                 fpkt['calculated_rtt'] = calculate_rtt(fpkt_tstamp, timestamp)
     return
 
+
 def main():
-    with open('decrypted_dump.json') as openfile:
+
+    if len(sys.argv) < 2:
+        print("Please provide a path to the JSON file")
+        sys.exit(1)
+
+
+    json_file = sys.argv[1]
+
+    #with open('decrypted_dump.json') as openfile:
+    with open(json_file) as openfile:
         #json_object = json.load(openfile)
         json_object = json.load(openfile, object_pairs_hook=handle_duplicates)
 
