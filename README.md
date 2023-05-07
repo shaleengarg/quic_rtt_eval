@@ -141,10 +141,11 @@ as json and save to a file dissected_pkts.json
 ``` 
 
 ### Calculate RTT
-Given `dissected_pkts.json` 
+Given `dissected_pkts.json` (example provided in ./quic_json_parser)
 
 run
 ```
+cd quic_json_parser
 ./json_rtt_parser.py dissected_pkts.json
 ```
 This is will print out a list of tuples which has the following keys:
