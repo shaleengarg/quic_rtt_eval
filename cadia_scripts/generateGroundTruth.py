@@ -71,7 +71,10 @@ def calculateRTT():
         starterTS = outList[not direction][nextIndex]['ts']
         ackIndex = acks[not direction][backSeq]
         rtt[starterSeq] += outList[direction][ackIndex]['ts'] - starterTS #backward leg
-    print(rtt)
+    rttFd = open("caidaGround", "w")
+    for elt in rtt:
+        rttFd.write(str(elt) + "\t" + str(rtt[elt]/1000) + "\n")
+    rttFd.close()
 
 def main():
     try:

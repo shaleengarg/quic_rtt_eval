@@ -72,15 +72,15 @@ def parsePkt(fileName, outDir, suffix, fwd, pktFilter):
         if len(outputFiles[output]['pkts']) > maxLen:
             maxLen = len(outputFiles[output]['pkts'])
     avg /= len(outputFiles)
-    sd = open(os.path.join(outDir, "sequenceDistribution" + "_" + suffix), "w")
-    sd.write("conID" + "\t\t\t" + "#distinctSeq" + "\t\t" + "totalPkt" + "\n")
+    sd = open(os.path.join(outDir, "sequenceDistribution_"+suffix), "w")
+    sd.write("#conID" + "\t" + "|distinctSeq|" + "\t" + "totalPkt" + "\n")
     for output in outputFiles:
         if len(filterString) and filterString not in output:
             continue
         sd.write(output + "\t\t\t" + str(outputFiles[output]['distinctSeq']) + "\t\t" + str(len(outputFiles[output]['pkts'])) + "\n")
         if len(outputFiles[output]['pkts']) > avg:
             fd = open(os.path.join(outDir, output), "w")
-            fd.write("#" + "srcIP:srcPort" + "\t" + "dstIP:dstPort" + "\t" + "pktCount" + "\t" + "seqNum" + "\t" + "ackNum" + "\t" + "Timestamp" + "\t" + "relTime" + "\t" + "dataLen" + "TSVal" + "\t" + "TSEcr" + "\n")
+            fd.write("#" + "EP1(0)" + "\t" + "EP2(1)" + "\t" + "pktNum(2)" + "\t" + "seqNum(3)" + "\t" + "ackNum(4)" + "\t" + "TS(ns)(5)" + "\t" + "Relative TS(micros)(6)" + "\t" + "dataLen(7)" + "\t" + "TSVal(8)" + "\t" + "TSEcr(9)" + "\n")
             for pktCount, elt in enumerate(outputFiles[output]['pkts']):
                 if pktCount == 0:
                     startTime = int(float(elt['ts']))
